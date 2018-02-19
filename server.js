@@ -29,17 +29,17 @@ const upload = multer({ storage: storage });
 
 app.post("/images/add",upload.single('imageFile'), (req,res) => {
     //  When accessed, this route will redirect to "/images" (defined below) 
-    res.redirect("/images/");
+    res.redirect("/images");
 });
 
 app.get("/images", (req,res) => {
 
 
     var dirFiles = [];
-    fs.readdir('/public/images/uploaded/', (err, items) => {
+    fs.readdir(path.join(__dirname, '/public/images/uploaded/'), (err, items) => {
 
         var dirFiles = [];
-        items.array.forforEach(element => {
+        items.forEach(element => {
             dirFiles.push(element);
         });
         res.json({ "images": dirFiles });
