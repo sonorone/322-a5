@@ -23,11 +23,18 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-app.get("/employee/:value", (req,res) => {
-    res.json(ds.getEmployeeByNum(req.params.value));
+app.get("/employee/:value", (req, res) => {
+    ds
+        .getEmployeeByNum(req.params.value)
+        .then(data => {
+            res.json(data);
+        })
+        .catch(data => {
+            res.json(data);
+        });
 });
 
-app.post("/employees/add", (req,res) => {
+app.post("/employees/add", (req, res) => {
     ds
         .addEmployee(req.body)
         .then(() => {
@@ -44,12 +51,12 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage: storage });
 
-app.post("/images/add", upload.single("imageFile"), (req,res) => {
+app.post("/images/add", upload.single("imageFile"), (req, res) => {
     //  When accessed, this route will redirect to "/images" (defined below)
     res.redirect("/images");
 });
 
-app.get("/images", (req,res) => {
+app.get("/images", (req, res) => {
     var dirFiles = [];
     fs.readdir(
         path.join(__dirname, "/public/images/uploaded/"),
@@ -63,40 +70,64 @@ app.get("/images", (req,res) => {
     );
 });
 
-app.get("/public/css/site.css", (req,res) => {
+app.get("/public/css/site.css", (req, res) => {
     res.sendFile(path.join(__dirname + "/public/css/site.css"));
 });
 
-app.get("/", (req,res) => {
+app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname + "/views/home.html"));
 });
 
-app.get("/about", (req,res) => {
+app.get("/about", (req, res) => {
     res.sendFile(path.join(__dirname + "/views/about.html"));
 });
 
-app.get("/employees/add", (req,res) => {
+app.get("/employees/add", (req, res) => {
     res.sendFile(path.join(__dirname + "/views/addEmployee.html"));
 });
 
-app.get("/images/add", (req,res) => {
+app.get("/images/add", (req, res) => {
     res.sendFile(path.join(__dirname, "/views/addImage.html"));
 });
 
-app.get("/employees", (req,res) => {
+app.get("/employees", (req, res) => {
     if (req.query.status != null) {
         // console.log("employees query for 'status'");
-        res.json(ds.getEmployeesByStatus(req.query.status));
-    }
-    else if (req.query.department != null) {
+        ds
+            .getEmployeesByStatus(req.query.status)
+            .then(data => {
+                res.json(data);
+                console.log("getEmployeesByStatus promise resolved");
+            })
+            .catch(data => {
+                res.json(data);
+                console.log("getEmployeesByStatus promise rejected");
+            });
+    } else if (req.query.department != null) {
         // console.log("employees query for 'department'");
-        res.json(ds.getEmployeesByDepartment(req.query.department));
-    }
-    else if (req.query.manager != null) {
+        ds
+            .getEmployeesByDepartment(req.query.department)
+            .then(data => {
+                res.json(data);
+                console.log("getEmployeesByDepartment promise resolved");
+            })
+            .catch(data => {
+                res.json(data);
+                console.log("getEmployeesByDepartment promise rejected");
+            });
+    } else if (req.query.manager != null) {
         // console.log("employees query for 'manager'");
-        res.json(ds.getEmployeesByManager(req.query.manager));
-    } 
-    else {
+        ds
+            .getEmployeesByManager(req.query.manager)
+            .then(data => {
+                res.json(data);
+                console.log("getEmployeesByManager promise resolved");
+            })
+            .catch(data => {
+                res.json(data);
+                console.log("getEmployeesByManager promise rejected");
+            });
+    } else {
         // returns JSON formatted string containing
         // all of the employees within the employees.json file:
         ds
@@ -110,7 +141,7 @@ app.get("/employees", (req,res) => {
     }
 });
 
-app.get("/managers", (req,res) => {
+app.get("/managers", (req, res) => {
     // returns JSON formatted string containing
     // all the employees who are managers, or error msg if failed loading
     ds
@@ -123,7 +154,7 @@ app.get("/managers", (req,res) => {
         });
 });
 
-app.get("/departments", (req,res) => {
+app.get("/departments", (req, res) => {
     // returns JSON formatted string containing
     // all of the departmnets within the departments.json file:
     ds
@@ -139,7 +170,7 @@ app.get("/departments", (req,res) => {
 /**
  * 404 - resource not found
  */
-app.use(function(req,res) {
+app.use(function(req, res) {
     res.status(404).send("Page Not Found");
 });
 
