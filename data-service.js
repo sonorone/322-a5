@@ -1,6 +1,6 @@
 var fs = require("fs"),
     path = require("path");
-// data module
+
 var employees = [];
 var departments = [];
 var managers = [];
@@ -58,3 +58,27 @@ module.exports.getDepartments = function() {
         else resolve(departments);
     });
 };
+
+module.exports.addEmployee = function(employeeData) {
+    return new Promise(function (resolve, reject) {
+        if(employeeData.isManager == null) {
+            employeeData.isManager = false;
+        } else {
+            employeeData.isManager = true;            
+        }
+        employeeData.employeeNum = employees.length + 1;
+
+        // push returns the new number of items, therefore should match with emp#
+        if (employees.push(employeeData) == employeeData.employeeNum) {
+            resolve("new employee added");
+        } else {
+            console.log("employee data was not added.\nEmp# doesn't match number of items in the employees array...");
+            reject();
+        }
+    });
+};
+
+module.exports.getEmployeesByStatus = function (status) {};
+module.exports.getEmployeesByDepartment = function (department) {};
+module.exports.getEmployeesByManager = function (manager) {};
+module.exports.getEmployeeByNum = function (num) {};

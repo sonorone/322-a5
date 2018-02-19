@@ -12,12 +12,29 @@ https://floating-eyrie-97898.herokuapp.com/
 
 const HTTP_PORT = process.env.PORT || 8080;
 const express = require("express");
+const app = express();
 const ds = require("./data-service.js");
 const fs = require("fs");
 const path = require("path");
 const multer = require("multer");
-const bodyParser = require('body-parser');
-const app = express().use(express.static("public"));
+const bodyParser = require("body-parser");
+
+// middleware
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static("public"));
+
+app.get("/employee/:value", (req,res) => {
+    res.json(ds.getEmployeeByNum(req.params.value));
+});
+
+app.post("/employees/add", (req,res) => {
+    ds
+        .addEmployee(req.body)
+        .then(() => {
+            res.redirect("/employees");
+        })
+        .catch();
+});
 
 const storage = multer.diskStorage({
     destination: "./public/images/uploaded/",
@@ -27,88 +44,94 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage: storage });
 
-app.post("/images/add",upload.single('imageFile'), (req,res) => {
-    //  When accessed, this route will redirect to "/images" (defined below) 
+app.post("/images/add", upload.single("imageFile"), (req,res) => {
+    //  When accessed, this route will redirect to "/images" (defined below)
     res.redirect("/images");
 });
 
 app.get("/images", (req,res) => {
-
-
     var dirFiles = [];
-    fs.readdir(path.join(__dirname, '/public/images/uploaded/'), (err, items) => {
-
-        var dirFiles = [];
-        items.forEach(element => {
-            dirFiles.push(element);
-        });
-        res.json({ "images": dirFiles });
-
-
-    });
-
-    
-
+    fs.readdir(
+        path.join(__dirname, "/public/images/uploaded/"),
+        (err, items) => {
+            var dirFiles = [];
+            items.forEach(element => {
+                dirFiles.push(element);
+            });
+            res.json({ images: dirFiles });
+        }
+    );
 });
 
-
-
-app.get("/public/css/site.css", (req, res) => {
+app.get("/public/css/site.css", (req,res) => {
     res.sendFile(path.join(__dirname + "/public/css/site.css"));
 });
 
-app.get("/", (req, res) => {
+app.get("/", (req,res) => {
     res.sendFile(path.join(__dirname + "/views/home.html"));
 });
 
-app.get("/about", (req, res) => {
+app.get("/about", (req,res) => {
     res.sendFile(path.join(__dirname + "/views/about.html"));
 });
 
-app.get("/employees/add", (req, res) => {
+app.get("/employees/add", (req,res) => {
     res.sendFile(path.join(__dirname + "/views/addEmployee.html"));
 });
 
-app.get("/images/add", (req, res) => {
+app.get("/images/add", (req,res) => {
     res.sendFile(path.join(__dirname, "/views/addImage.html"));
 });
 
-app.get("/employees", (req, res) => {
-    // returns JSON formatted string containing
-    // all of the employees within the employees.json file:
-    ds
-        .getAllEmployees()
-        .then((data) => {
-            res.json(data);
-        })
-        .catch((err) => {
-            res.json("message: " + err);
-        });
+app.get("/employees", (req,res) => {
+    if (req.query.status != null) {
+        // console.log("employees query for 'status'");
+        res.json(ds.getEmployeesByStatus(req.query.status));
+    }
+    else if (req.query.department != null) {
+        // console.log("employees query for 'department'");
+        res.json(ds.getEmployeesByDepartment(req.query.department));
+    }
+    else if (req.query.manager != null) {
+        // console.log("employees query for 'manager'");
+        res.json(ds.getEmployeesByManager(req.query.manager));
+    } 
+    else {
+        // returns JSON formatted string containing
+        // all of the employees within the employees.json file:
+        ds
+            .getAllEmployees()
+            .then(data => {
+                res.json(data);
+            })
+            .catch(err => {
+                res.json("message: " + err);
+            });
+    }
 });
 
-
-app.get("/managers", (req, res) => {
+app.get("/managers", (req,res) => {
     // returns JSON formatted string containing
     // all the employees who are managers, or error msg if failed loading
     ds
         .getManagers()
-        .then((data) => {
+        .then(data => {
             res.json(data);
         })
-        .catch((err) => {
+        .catch(err => {
             res.json("message: " + err);
         });
 });
 
-app.get("/departments", (req, res) => {
+app.get("/departments", (req,res) => {
     // returns JSON formatted string containing
     // all of the departmnets within the departments.json file:
     ds
         .getDepartments()
-        .then((data) => {
+        .then(data => {
             res.json(data);
         })
-        .catch((err) => {
+        .catch(err => {
             res.json("message: " + err);
         });
 });
@@ -116,14 +139,15 @@ app.get("/departments", (req, res) => {
 /**
  * 404 - resource not found
  */
-app.use(function(req, res) {
+app.use(function(req,res) {
     res.status(404).send("Page Not Found");
 });
 
 /**
  * only start your server when initilize promise is resolved
  */
-ds.initialize()
+ds
+    .initialize()
     .then(function() {
         app.listen(HTTP_PORT, function() {
             console.log("listening to port: " + HTTP_PORT);
