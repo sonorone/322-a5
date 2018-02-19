@@ -34,14 +34,6 @@ app.get("/employee/:value", (req, res) => {
         });
 });
 
-app.post("/employees/add", (req, res) => {
-    ds
-        .addEmployee(req.body)
-        .then(() => {
-            res.redirect("/employees");
-        })
-        .catch();
-});
 
 const storage = multer.diskStorage({
     destination: "./public/images/uploaded/",
@@ -50,11 +42,6 @@ const storage = multer.diskStorage({
     }
 });
 const upload = multer({ storage: storage });
-
-app.post("/images/add", upload.single("imageFile"), (req, res) => {
-    //  When accessed, this route will redirect to "/images" (defined below)
-    res.redirect("/images");
-});
 
 app.get("/images", (req, res) => {
     var dirFiles = [];
@@ -87,9 +74,23 @@ app.get("/employees/add", (req, res) => {
     res.sendFile(path.join(__dirname, "/views/addEmployee.html"));
 });
 
+app.post("/employees/add", (req, res) => {
+    ds
+        .addEmployee(req.body)
+        .then(() => {
+            res.redirect("/employees");
+        })
+        .catch();
+});
+
 app.get("/images/add", (req, res) => {
     console.log(path.join(__dirname, "/views/addImage.html"));
     res.sendFile(path.join(__dirname, "/views/addImage.html"));
+});
+
+app.post("/images/add", upload.single("imageFile"), (req, res) => {
+    //  When accessed, this route will redirect to "/images" (defined below)
+    res.redirect("/images");
 });
 
 app.get("/employees", (req, res) => {
