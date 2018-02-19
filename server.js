@@ -71,19 +71,19 @@ app.get("/images", (req, res) => {
 });
 
 app.get("/public/css/site.css", (req, res) => {
-    res.sendFile(path.join(__dirname + "/public/css/site.css"));
+    res.sendFile(path.join(__dirname, "/public/css/site.css"));
 });
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname + "/views/home.html"));
+    res.sendFile(path.join(__dirname, "/views/home.html"));
 });
 
 app.get("/about", (req, res) => {
-    res.sendFile(path.join(__dirname + "/views/about.html"));
+    res.sendFile(path.join(__dirname, "/views/about.html"));
 });
 
 app.get("/employees/add", (req, res) => {
-    res.sendFile(path.join(__dirname + "/views/addEmployee.html"));
+    res.sendFile(path.join(__dirname, "/views/addEmployee.html"));
 });
 
 app.get("/images/add", (req, res) => {
