@@ -1,5 +1,5 @@
 /*********************************************************************************
-* WEB322 – Assignment 02
+* WEB322 – Assignment 3
 * I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part
 * of this assignment has been copied manually or electronically from any other source
 * (including 3rd party web sites) or distributed to other students. *
@@ -83,10 +83,12 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/employees/add", (req, res) => {
+    console.log(path.join(__dirname, "/views/addEmployee.html"));
     res.sendFile(path.join(__dirname, "/views/addEmployee.html"));
 });
 
 app.get("/images/add", (req, res) => {
+    console.log(path.join(__dirname, "/views/addImage.html"));
     res.sendFile(path.join(__dirname, "/views/addImage.html"));
 });
 
