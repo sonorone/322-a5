@@ -3,7 +3,7 @@
 * I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part
 * of this assignment has been copied manually or electronically from any other source
 * (including 3rd party web sites) or distributed to other students. *
-* Name: ___Damian_Murawiecki__ Student ID: __121531164__ Date: ___February_19,2018_ *
+* Name: ___Damian_Murawiecki__ Student ID: __121531164__ Date: ___February_20,2018_ *
 * Online (Heroku) Link: 
 
 https://limitless-mountain-89368.herokuapp.com/
@@ -70,7 +70,6 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/employees/add", (req, res) => {
-    console.log(path.join(__dirname, "/views/addEmployee.html"));
     res.sendFile(path.join(__dirname, "/views/AddEmployee.html"));
 });
 
@@ -84,7 +83,6 @@ app.post("/employees/add", (req, res) => {
 });
 
 app.get("/images/add", (req, res) => {
-    console.log(path.join(__dirname, "/views/addImage.html"));
     res.sendFile(path.join(__dirname, "/views/AddImage.html"));
 });
 
