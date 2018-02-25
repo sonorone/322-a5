@@ -117,26 +117,3 @@ make it thinner, then set it to again wrap around the entire parent element.
   stroke-dashoffset: 0;
   stroke: #06D6A0;
 }
-
-li.active #text {
-   background-color: #06D6A0;
-   /* margin-bottom: 10pt; */
-   opacity: 0.90;
-}
-
-/* .row aside {
-  background-color:rgba(0, 0, 0, 0.9);
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.9) 0%,rgba(0, 0, 0, 0.6) 0%,rgba(85,239,203,10, 0, 0, 0.4) 0%,rgba(91,202,255,0.5) 100%);
-
-} */
-
-/* .tbl {
-  border-right: gray solid 3px;
-  width: 23%;
-}
-
-.boxx {
-  width: 0%;
-  height: 10pt;
-  background-color: gray;
-} */

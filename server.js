@@ -1,9 +1,9 @@
 /*********************************************************************************
-* WEB322 – Assignment 3
+* WEB322 – Assignment 4
 * I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part
 * of this assignment has been copied manually or electronically from any other source
 * (including 3rd party web sites) or distributed to other students. *
-* Name: ___Damian_Murawiecki__ Student ID: __121531164__ Date: ___February_20,2018_ *
+* Name: ___Damian_Murawiecki__ Student ID: __121531164__ Date: ___February_25,2018_ *
 * Online (Heroku) Link: 
 
 https://limitless-mountain-89368.herokuapp.com/
@@ -18,10 +18,44 @@ const fs = require("fs");
 const path = require("path");
 const multer = require("multer");
 const bodyParser = require("body-parser");
-
+const exphbs = require('express-handlebars');
 // middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
+app.use(function(req,res,next) {
+    let route = req.baseUrl + req.path;
+    app.locals.activeRoute = (route == "/") ? "/" : route.replace(/\/$/, "");
+    next();
+});
+// template engine
+app.engine('.hbs', exphbs({
+    extname: '.hbs',
+    defaultLayout: 'main',
+    helpers: {
+        navLink: function(url, options) {
+            return '<li ' + ((url == app.locals.activeRoute) ? 'class="active"' : '' ) + 
+            '><a href="' + url + '">' + options.fn(this) + '</a></li>';
+        },
+        equal: function(lvalue,rvalue,options) {
+            if (arguments.length < 3)
+            throw new Error('Hendlebars Helper equal needs 2 parameters');
+            if (lvalue != rvalue) {
+                return options.inverse(this);
+            } else {
+                return options.fn(this);
+            }
+        }
+    }
+}));
+app.set('view engine', '.hbs');
+
+const storage = multer.diskStorage({
+    destination: "./public/images/uploaded/",
+    filename: function(req, file, cb) {
+        cb(null, Date.now() + path.extname(file.originalname));
+    }
+});
+const upload = multer({ storage: storage });
 
 app.get("/employee/:value", (req, res) => {
     ds
@@ -35,13 +69,6 @@ app.get("/employee/:value", (req, res) => {
 });
 
 
-const storage = multer.diskStorage({
-    destination: "./public/images/uploaded/",
-    filename: function(req, file, cb) {
-        cb(null, Date.now() + path.extname(file.originalname));
-    }
-});
-const upload = multer({ storage: storage });
 
 app.get("/images", (req, res) => {
     var dirFiles = [];
@@ -62,15 +89,15 @@ app.get("/public/css/site.css", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "/views/home.html"));
+    res.render('home');
 });
 
 app.get("/about", (req, res) => {
-    res.sendFile(path.join(__dirname, "/views/about.html"));
+    res.render('about');
 });
 
 app.get("/employees/add", (req, res) => {
-    res.sendFile(path.join(__dirname, "/views/AddEmployee.html"));
+    res.render('addEmployee');
 });
 
 app.post("/employees/add", (req, res) => {
@@ -83,7 +110,7 @@ app.post("/employees/add", (req, res) => {
 });
 
 app.get("/images/add", (req, res) => {
-    res.sendFile(path.join(__dirname, "/views/AddImage.html"));
+    res.render('addImage');
 });
 
 app.post("/images/add", upload.single("imageFile"), (req, res) => {
@@ -140,19 +167,6 @@ app.get("/employees", (req, res) => {
                 res.json("message: " + err);
             });
     }
-});
-
-app.get("/managers", (req, res) => {
-    // returns JSON formatted string containing
-    // all the employees who are managers, or error msg if failed loading
-    ds
-        .getManagers()
-        .then(data => {
-            res.json(data);
-        })
-        .catch(err => {
-            res.json("message: " + err);
-        });
 });
 
 app.get("/departments", (req, res) => {
