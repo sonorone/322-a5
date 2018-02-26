@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>Departments</h2>
+        <hr />
+        <table class="table table-responsive" style="color: black; background-color: rgba(255, 255, 255, 1);" >
+            <thead class="h5">
+                <tr>
+                    <th class="col">Department Number</th>
+                    <th class="col">Department Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each departments}}
+                <tr class="h5">
+                    <td class="col"><a href="/employees?department={{this.departmentId}}">{{this.departmentId}}</a></td>
+                    <td class="col"><a href="/employees?department={{this.departmentId}}">{{this.departmentName}}</a></td>
+                </tr>
+                {{/each}}
+            </tbody>
+            {{#unless promiseRejected}}
+            <tfoot>
+                <tr>
+                    <td colspan='2' class="text-center">
+                        <strong>{{this.message}}</strong>
+                    </td>
+                </tr>
+            </tfoot>
+        {{/unless}}
+        </table>
+    </div>
+</div>

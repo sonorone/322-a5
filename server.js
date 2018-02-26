@@ -68,8 +68,6 @@ app.get("/employee/:value", (req, res) => {
         });
 });
 
-
-
 app.get("/images", (req, res) => {
     var dirFiles = [];
     fs.readdir(
@@ -79,7 +77,8 @@ app.get("/images", (req, res) => {
             items.forEach(element => {
                 dirFiles.push(element);
             });
-            res.json({ images: dirFiles });
+//            res.json({ images: dirFiles });  // {"images":["1519017165852.jpg","1519598928331.jpg","1519598945504.jpg"]}
+            res.render('images', { data: dirFiles} );
         }
     );
 });
@@ -124,11 +123,11 @@ app.get("/employees", (req, res) => {
         ds
             .getEmployeesByStatus(req.query.status)
             .then(data => {
-                res.json(data);
+                res.render('employees',{data: data});
                 console.log("getEmployeesByStatus promise resolved");
             })
-            .catch(data => {
-                res.json(data);
+            .catch(err => {
+                res.render('employees', {message: err});
                 console.log("getEmployeesByStatus promise rejected");
             });
     } else if (req.query.department != null) {
@@ -136,11 +135,11 @@ app.get("/employees", (req, res) => {
         ds
             .getEmployeesByDepartment(req.query.department)
             .then(data => {
-                res.json(data);
+                res.render('employees',{data: data});
                 console.log("getEmployeesByDepartment promise resolved");
             })
-            .catch(data => {
-                res.json(data);
+            .catch(err => {
+                res.render('employees', {message: err});
                 console.log("getEmployeesByDepartment promise rejected");
             });
     } else if (req.query.manager != null) {
@@ -148,11 +147,11 @@ app.get("/employees", (req, res) => {
         ds
             .getEmployeesByManager(req.query.manager)
             .then(data => {
-                res.json(data);
+                res.render('employees',{data: data});
                 console.log("getEmployeesByManager promise resolved");
             })
-            .catch(data => {
-                res.json(data);
+            .catch(err => {
+                res.render('employees', {message: err});
                 console.log("getEmployeesByManager promise rejected");
             });
     } else {
@@ -161,10 +160,12 @@ app.get("/employees", (req, res) => {
         ds
             .getAllEmployees()
             .then(data => {
-                res.json(data);
+                res.render('employees',{data: data});
+                console.log("getAllEmployees promise resolved");
             })
             .catch(err => {
-                res.json("message: " + err);
+                res.render('employees', {message: err});
+                console.log("getAllEmployees promise rejected");
             });
     }
 });
@@ -175,10 +176,10 @@ app.get("/departments", (req, res) => {
     ds
         .getDepartments()
         .then(data => {
-            res.json(data);
+            res.render('departments', {departments: data})
         })
         .catch(err => {
-            res.json("message: " + err);
+            res.render('departments', {message: err})
         });
 });
 
