@@ -17,7 +17,7 @@ css {
   color: #f7f7f7;
 }
 
-body {
+body, legend {
   font-family: Raleway;
   color: white;
   /* background: #06D6A0; */
@@ -116,4 +116,8 @@ make it thinner, then set it to again wrap around the entire parent element.
   stroke-width: 3px;
   stroke-dashoffset: 0;
   stroke: #06D6A0;
+}
+
+.form-control {
+  border-radius: 0;
 }

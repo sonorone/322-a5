@@ -57,15 +57,21 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage: storage });
 
-app.get("/employee/:value", (req, res) => {
+app.get("/employee/:empNum", (req, res) => {
     ds
-        .getEmployeeByNum(req.params.value)
+        .getEmployeeByNum(req.params.empNum)
         .then(data => {
-            res.json(data);
+            res.render('employee', {employee: data });
         })
-        .catch(data => {
-            res.json(data);
+        .catch(err => {
+            res.render('employee', {message: err });
         });
+});
+
+app.post('/employee/update', (req,res) => {
+    ds.updateEmployee(req.body).then(() => {
+        res.redirect('/employees');
+    });
 });
 
 app.get("/images", (req, res) => {
@@ -77,7 +83,6 @@ app.get("/images", (req, res) => {
             items.forEach(element => {
                 dirFiles.push(element);
             });
-//            res.json({ images: dirFiles });  // {"images":["1519017165852.jpg","1519598928331.jpg","1519598945504.jpg"]}
             res.render('images', { data: dirFiles} );
         }
     );

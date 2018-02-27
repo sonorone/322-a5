@@ -131,3 +131,15 @@ module.exports.getEmployeeByNum = function(num) {
         reject("no results returned");
     });
 };
+
+module.exports.updateEmployee = function(employeeData) {
+    return new Promise(function(resolve,reject) {
+        for (var i = 0; i < employees.length; i++) {
+            if(employeeData.employeeNum == employees[i].employeeNum) {
+                employees[i] = employeeData;
+                resolve();
+            }
+        }
+        reject("ERROR: Employee not found - cannot update");
+    });
+};
