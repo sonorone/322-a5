@@ -152,3 +152,10 @@ table td {
   border-width: 1px;
   box-sizing: border-box;
 }
+
+li.active {
+  border-bottom: solid 4px rgb(0, 80, 253);
+}
+li:hover {
+  border-bottom: solid 4px rgb(0, 80, 253);
+}
