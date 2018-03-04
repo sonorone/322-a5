@@ -153,12 +153,16 @@ table td {
   box-sizing: border-box;
 }
 
+li {
+  transition: all 0.3s ease-out;
+}
+
 li.active {
   border-bottom: solid 3px rgb(51, 38, 235);
   margin-bottom: -5pt;
 }
 li:hover {
-  transition:.2s ease-out;
+  transition: all .3s ease-out;
   border-bottom: solid 3px rgba(0, 80, 253, 1);
   margin-top: -2pt;
 }
