@@ -27,17 +27,14 @@
                     <td class="col"><a href="/employees?department={{this.department}}">{{this.department}}</a></td>
                     <td class="col">{{this.hireDate}}</td>
                 </tr>
-                {{/each}}
-            </tbody>
-            {{#unless promiseRejected}}
-            <tfoot>
+                 {{/each}} {{#unless promiseRejected}}
                 <tr>
                     <td colspan='8' class="text-center">
                         <strong>{{this.message}}</strong>
                     </td>
                 </tr>
-            </tfoot>
-        {{/unless}}
+                {{/unless}}
+            </tbody>
         </table>
     </div>
 </div>

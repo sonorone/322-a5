@@ -11,6 +11,7 @@ body {
   background: none;
 }
 legend { 
+  width: 25%;
   color: whitesmoke;
   font-family: 'Work Sans';
   text-align: center;
@@ -54,7 +55,7 @@ legend {
 .box {
   border-top: solid 5px rgba(255, 255, 255, 0.8);
   padding: 30pt;
-  margin: 10pt 2pt 10pt 2pt;
+  margin: 10pt 0pt;
   background-color: rgba(0, 0, 0, 0.8);
   box-shadow: 0 0 50pt 10pt rgba(43, 43, 43, 0.3);
   /* transition-delay: 1000ms; */
@@ -85,6 +86,8 @@ tbody td {
   border-style: solid;
   border-width: 1px;
   box-sizing: border-box;
+  font-family: 'Work Sans';
+  font-size: 10pt;
 }
 
 li {
@@ -96,9 +99,8 @@ li.active {
   margin-bottom: -5pt;
 }
 li:hover {
-  transition: all .3s ease-out;
   border-bottom: solid 3px rgba(0, 80, 253, 1);
-  margin-top: -2pt;
+  margin-bottom: -5pt;
 }
 
 h2 { padding-top: 0;margin-top: 0; font-family: 'Work Sans'; font-size: 20pt; font-weight: 600;}
@@ -125,7 +127,7 @@ h2 { padding-top: 0;margin-top: 0; font-family: 'Work Sans'; font-size: 20pt; fo
 }
 .skewed-bg .content {
   margin-top: -130pt;
-  margin-bottom: -300pt;
+  margin-bottom: -80pt;
 }
 
 .shadow {
