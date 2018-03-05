@@ -68,7 +68,7 @@
             <fieldset class="box">
                 <legend>Company Information</legend>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-1">
                         <div class="form-group">
                             <label for="isManager">Manager:</label>
                             <input class="form-control" type="checkbox" name="isManager" />
@@ -81,19 +81,21 @@
                             <input class="form-control" id="employeeManagerNum" name="employeeManagerNum" type="text" />
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="form-group">
-                            <label>Status:</label>
+                            <label for="status">Status:</label>
                             <br />
-                            <label class="checkbox-inline">
-                                <input type="radio" id="statusFT" name="status" value="Full Time" /> Full Time
-                            </label>
-                            <label class="checkbox-inline">
-                                <input type="radio" id="statusFT" name="status" value="Part Time" /> Part Time
-                            </label>
+                            <div class="btn-group btn-group-justified">
+                                <label class="btn btn-primary col-sm-6">
+                                    <input type="radio" id="statusFT" name="status" value="Full Time" /> Full Time
+                                </label>
+                                <label class="btn btn-primary col-sm-6">
+                                    <input type="radio" id="statusFT" name="status" value="Part Time" /> Part Time
+                                </label>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <div class="form-group">
                             <label for="department">Department</label>
                             <select class="form-control" name="department" id="department">
@@ -107,12 +109,10 @@
                             </select>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-2">
                         <div class="form-group">
                             <label for="hireDate">Hire Date</label>
-                            <input class="form-control" id="hireDate" name="hireDate" type="text" />
+                            <input class="form-control" id="hireDate" name="hireDate" type="date" />
                         </div>
                     </div>
                 </div>

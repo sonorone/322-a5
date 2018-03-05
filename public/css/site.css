@@ -8,14 +8,15 @@ body {
   font-size: 11pt;
   color: whitesmoke;
   /* background: #06D6A0; */
-  background: none;
+  background: #222;
 }
 legend { 
-  width: 25%;
+  width: unset;
   color: whitesmoke;
   font-family: 'Work Sans';
   text-align: center;
   margin-bottom: 5pt;
+  border: none;
 }
 
 .skewed-bg {
