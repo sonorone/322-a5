@@ -1,12 +1,12 @@
 /*********************************************************************************
-* WEB322 – Assignment 4
+* WEB322 – Assignment 5
 * I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part
 * of this assignment has been copied manually or electronically from any other source
 * (including 3rd party web sites) or distributed to other students. *
-* Name: ___Damian_Murawiecki__ Student ID: __121531164__ Date: ___February_25,2018_ *
+* Name: ___Damian_Murawiecki__ Student ID: __121531164__ Date: _March_7,2018_ *
 * Online (Heroku) Link: 
 
-https://young-sierra-99013.herokuapp.com/
+https://safe-crag-90994.herokuapp.com/
 
 * ********************************************************************************/
 
@@ -143,3 +143,10 @@ module.exports.updateEmployee = function(employeeData) {
         reject("ERROR: Employee not found - cannot update");
     });
 };
+
+
+// pre-assignment 5 work:
+//
+//
+
+// create model for employees and departments tables
