@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Scrollgallery</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-360.000000, -1920.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M361,1926 L415,1926 L415,1966 L361,1966 L361,1926 Z" id="Fill-1569" fill="#EBEBEB"></path>
+                <path d="M415,1967 L361,1967 C360.448,1967 360,1966.553 360,1966 L360,1926 C360,1925.447 360.448,1925 361,1925 L415,1925 C415.552,1925 416,1925.447 416,1926 L416,1966 C416,1966.553 415.552,1967 415,1967 L415,1967 Z M362,1965 L414,1965 L414,1927 L362,1927 L362,1965 Z" id="Fill-1571" fill="#314E55"></path>
+                <path d="M407,1926 L415,1926 L415,1966 L407,1966 L407,1926 Z" id="Fill-1572" fill="#D8D8D8"></path>
+                <path d="M415,1967 L407,1967 C406.448,1967 406,1966.553 406,1966 L406,1926 C406,1925.447 406.448,1925 407,1925 L415,1925 C415.552,1925 416,1925.447 416,1926 L416,1966 C416,1966.553 415.552,1967 415,1967 L415,1967 Z M408,1965 L414,1965 L414,1927 L408,1927 L408,1965 Z" id="Fill-1574" fill="#314E55"></path>
+                <path d="M370,1931 L397,1931 L397,1948 L370,1948 L370,1931 Z" id="Fill-1575" fill="#73C9C9"></path>
+                <path d="M397,1949 L370,1949 C369.448,1949 369,1948.553 369,1948 L369,1931 C369,1930.447 369.448,1930 370,1930 L397,1930 C397.552,1930 398,1930.447 398,1931 L398,1948 C398,1948.553 397.552,1949 397,1949 L397,1949 Z M371,1947 L396,1947 L396,1932 L371,1932 L371,1947 Z" id="Fill-1577" fill="#314E55"></path>
+                <path d="M370,1954 L397,1954 L397,1966 L370,1966 L370,1954 Z" id="Fill-1578" fill="#73C9C9"></path>
+                <path d="M397,1967 L370,1967 C369.448,1967 369,1966.553 369,1966 L369,1954 C369,1953.447 369.448,1953 370,1953 L397,1953 C397.552,1953 398,1953.447 398,1954 L398,1966 C398,1966.553 397.552,1967 397,1967 L397,1967 Z M371,1965 L396,1965 L396,1955 L371,1955 L371,1965 Z" id="Fill-1580" fill="#314E55"></path>
+                <path d="M410,1933 L412,1933 L412,1941 L410,1941 L410,1933 Z" id="Fill-1581" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

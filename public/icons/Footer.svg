@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Footer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-120.000000, -240.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M123,241 L148,241 L148,291 L123,291 L123,241 Z" id="Fill-201" fill="#D8D8D8"></path>
+                <path d="M148,292 L123,292 C122.448,292 122,291.552 122,291 L122,241 C122,240.448 122.448,240 123,240 L148,240 C148.552,240 149,240.448 149,241 L149,291 C149,291.552 148.552,292 148,292 L148,292 Z M124,290 L147,290 L147,242 L124,242 L124,290 Z" id="Fill-203" fill="#314E55"></path>
+                <path d="M123,282 L148,282 L148,291 L123,291 L123,282 Z" id="Fill-204" fill="#D8D8D8"></path>
+                <path d="M148,292 L123,292 C122.448,292 122,291.552 122,291 L122,282 C122,281.448 122.448,281 123,281 L148,281 C148.552,281 149,281.448 149,282 L149,291 C149,291.552 148.552,292 148,292 L148,292 Z M124,290 L147,290 L147,283 L124,283 L124,290 Z" id="Fill-206" fill="#314E55"></path>
+                <path d="M148,282 L173,282 L173,291 L148,291 L148,282 Z" id="Fill-207" fill="#D8D8D8"></path>
+                <path d="M173,292 L148,292 C147.448,292 147,291.552 147,291 L147,282 C147,281.448 147.448,281 148,281 L173,281 C173.552,281 174,281.448 174,282 L174,291 C174,291.552 173.552,292 173,292 L173,292 Z M149,290 L172,290 L172,283 L149,283 L149,290 Z" id="Fill-209" fill="#314E55"></path>
+                <path d="M148,241 L173,241 L173,291 L148,291 L148,241 Z" id="Fill-210" fill="#EBEBEB"></path>
+                <path d="M173,292 L148,292 C147.448,292 147,291.552 147,291 L147,241 C147,240.448 147.448,240 148,240 L173,240 C173.552,240 174,240.448 174,241 L174,291 C174,291.552 173.552,292 173,292 L173,292 Z M149,290 L172,290 L172,242 L149,242 L149,290 Z" id="Fill-212" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

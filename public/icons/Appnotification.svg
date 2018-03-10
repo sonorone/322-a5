@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Appnotification</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M5.5,11 C8.538,11 11,8.538 11,5.5 C11,2.462 8.538,0 5.5,0 C2.462,0 0,2.462 0,5.5 C0,8.538 2.462,11 5.5,11 L5.5,11 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-240.000000, -2400.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <path d="M283.31,2451 L254.689,2451 C249.898,2451 246,2447.102 246,2442.31 L246,2413.689 C246,2408.898 249.902,2405 254.698,2405 L280,2405 C280.552,2405 281,2405.447 281,2406 C281,2406.553 280.552,2407 280,2407 L254.698,2407 C251.004,2407 248,2410.001 248,2413.689 L248,2442.31 C248,2445.999 251.001,2449 254.689,2449 L283.31,2449 C286.999,2449 290,2445.996 290,2442.303 L290,2417 C290,2416.447 290.448,2416 291,2416 C291.552,2416 292,2416.447 292,2417 L292,2442.303 C292,2447.099 288.102,2451 283.31,2451" id="Fill-2174" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-2177" transform="translate(283.000000, 2403.000000)">
+                    <mask id="mask-2" sketch:name="Clip 2176" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2176"></g>
+                    <path d="M0,0 L11,0 L11,11 L0,11 L0,0 Z" id="Fill-2175" fill="#D26CBA" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M288.5,2415 C284.916,2415 282,2412.084 282,2408.5 C282,2404.916 284.916,2402 288.5,2402 C292.084,2402 295,2404.916 295,2408.5 C295,2412.084 292.084,2415 288.5,2415 L288.5,2415 Z M288.5,2404 C286.019,2404 284,2406.019 284,2408.5 C284,2410.981 286.019,2413 288.5,2413 C290.981,2413 293,2410.981 293,2408.5 C293,2406.019 290.981,2404 288.5,2404 L288.5,2404 Z" id="Fill-2178" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

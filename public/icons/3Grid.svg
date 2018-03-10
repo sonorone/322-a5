@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>3Grid</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-480.000000, -240.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M484,266 L509,266 L509,291 L484,291 L484,266 Z" id="Fill-243" fill="#D8D8D8"></path>
+                <path d="M509,292 L484,292 C483.447,292 483,291.552 483,291 L483,266 C483,265.448 483.447,265 484,265 L509,265 C509.553,265 510,265.448 510,266 L510,291 C510,291.552 509.553,292 509,292 L509,292 Z M485,290 L508,290 L508,267 L485,267 L485,290 Z" id="Fill-245" fill="#314E55"></path>
+                <path d="M484,241 L509,241 L509,266 L484,266 L484,241 Z" id="Fill-246" fill="#D8D8D8"></path>
+                <path d="M509,267 L484,267 C483.447,267 483,266.552 483,266 L483,241 C483,240.448 483.447,240 484,240 L509,240 C509.553,240 510,240.448 510,241 L510,266 C510,266.552 509.553,267 509,267 L509,267 Z M485,265 L508,265 L508,242 L485,242 L485,265 Z" id="Fill-248" fill="#314E55"></path>
+                <path d="M509,241 L534,241 L534,291 L509,291 L509,241 Z" id="Fill-249" fill="#EBEBEB"></path>
+                <path d="M534,292 L509,292 C508.447,292 508,291.552 508,291 L508,241 C508,240.448 508.447,240 509,240 L534,240 C534.553,240 535,240.448 535,241 L535,291 C535,291.552 534.553,292 534,292 L534,292 Z M510,290 L533,290 L533,242 L510,242 L510,290 Z" id="Fill-251" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Justifyleft</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-480.000000, -120.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M483,122 L533,122 L533,172 L483,172 L483,122 Z" id="Fill-153" fill="#E9E7D1"></path>
+                <path d="M533,173 L483,173 C482.447,173 482,172.552 482,172 L482,122 C482,121.448 482.447,121 483,121 L533,121 C533.553,121 534,121.448 534,122 L534,172 C534,172.552 533.553,173 533,173 L533,173 Z M484,171 L532,171 L532,123 L484,123 L484,171 Z" id="Fill-155" fill="#314E55"></path>
+                <path d="M489,146 L527,146 L527,148 L489,148 L489,146 Z" id="Fill-156" fill="#314E55"></path>
+                <path d="M489,155 L527,155 L527,157 L489,157 L489,155 Z" id="Fill-157" fill="#314E55"></path>
+                <path d="M489,128 L527,128 L527,130 L489,130 L489,128 Z" id="Fill-158" fill="#314E55"></path>
+                <path d="M489,164 L511,164 L511,166 L489,166 L489,164 Z" id="Fill-159" fill="#314E55"></path>
+                <path d="M489,137 L527,137 L527,139 L489,139 L489,137 Z" id="Fill-160" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

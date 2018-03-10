@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Gallerylist</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-720.000000, 0.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M723,1 L746,1 L746,24 L723,24 L723,1 Z" id="Fill-97" fill="#F28544"></path>
+                <path d="M746,25 L723,25 C722.447,25 722,24.552 722,24 L722,1 C722,0.448 722.447,0 723,0 L746,0 C746.553,0 747,0.448 747,1 L747,24 C747,24.552 746.553,25 746,25 L746,25 Z M724,23 L745,23 L745,2 L724,2 L724,23 Z" id="Fill-99" fill="#314E55"></path>
+                <path d="M751,1 L774,1 L774,24 L751,24 L751,1 Z" id="Fill-100" fill="#F28544"></path>
+                <path d="M774,25 L751,25 C750.447,25 750,24.552 750,24 L750,1 C750,0.448 750.447,0 751,0 L774,0 C774.553,0 775,0.448 775,1 L775,24 C775,24.552 774.553,25 774,25 L774,25 Z M752,23 L773,23 L773,2 L752,2 L752,23 Z" id="Fill-102" fill="#314E55"></path>
+                <path d="M723,29 L746,29 L746,52 L723,52 L723,29 Z" id="Fill-103" fill="#F28544"></path>
+                <path d="M746,53 L723,53 C722.447,53 722,52.552 722,52 L722,29 C722,28.448 722.447,28 723,28 L746,28 C746.553,28 747,28.448 747,29 L747,52 C747,52.552 746.553,53 746,53 L746,53 Z M724,51 L745,51 L745,30 L724,30 L724,51 Z" id="Fill-105" fill="#314E55"></path>
+                <path d="M751,29 L774,29 L774,52 L751,52 L751,29 Z" id="Fill-106" fill="#F28544"></path>
+                <path d="M774,53 L751,53 C750.447,53 750,52.552 750,52 L750,29 C750,28.448 750.447,28 751,28 L774,28 C774.553,28 775,28.448 775,29 L775,52 C775,52.552 774.553,53 774,53 L774,53 Z M752,51 L773,51 L773,30 L752,30 L752,51 Z" id="Fill-108" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

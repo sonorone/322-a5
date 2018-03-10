@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Horizontal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-720.000000, -240.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M724,266 L774,266 L774,291 L724,291 L724,266 Z" id="Fill-261" fill="#D8D8D8"></path>
+                <path d="M774,292 L724,292 C723.447,292 723,291.552 723,291 L723,266 C723,265.448 723.447,265 724,265 L774,265 C774.553,265 775,265.448 775,266 L775,291 C775,291.552 774.553,292 774,292 L774,292 Z M725,290 L773,290 L773,267 L725,267 L725,290 Z" id="Fill-263" fill="#314E55"></path>
+                <path d="M724,241 L774,241 L774,266 L724,266 L724,241 Z" id="Fill-264" fill="#EBEBEB"></path>
+                <path d="M774,267 L724,267 C723.447,267 723,266.552 723,266 L723,241 C723,240.448 723.447,240 724,240 L774,240 C774.553,240 775,240.448 775,241 L775,266 C775,266.552 774.553,267 774,267 L774,267 Z M725,265 L773,265 L773,242 L725,242 L725,265 Z" id="Fill-266" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

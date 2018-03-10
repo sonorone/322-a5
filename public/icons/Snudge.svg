@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Snudge</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(0.000000, -1200.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M12,1211 L44,1211 L44,1243 L12,1243 L12,1211 Z" id="Fill-980" fill="#F28544"></path>
+                <path d="M44,1244 L12,1244 C11.448,1244 11,1243.553 11,1243 L11,1211 C11,1210.448 11.448,1210 12,1210 L44,1210 C44.552,1210 45,1210.448 45,1211 L45,1243 C45,1243.553 44.552,1244 44,1244 L44,1244 Z M13,1242 L43,1242 L43,1212 L13,1212 L13,1242 Z" id="Fill-982" fill="#314E55"></path>
+                <path d="M43,1199.95 L45,1199.95 L45,1212 L43,1212 L43,1199.95 Z" id="Fill-983" fill="#314E55"></path>
+                <path d="M35,1241.95 L37,1241.95 L37,1254 L35,1254 L35,1241.95 Z" id="Fill-984" fill="#314E55"></path>
+                <path d="M35,1199.95 L37,1199.95 L37,1212 L35,1212 L35,1199.95 Z" id="Fill-985" fill="#314E55"></path>
+                <path d="M27,1241.95 L29,1241.95 L29,1254 L27,1254 L27,1241.95 Z" id="Fill-986" fill="#314E55"></path>
+                <path d="M27,1199.95 L29,1199.95 L29,1212 L27,1212 L27,1199.95 Z" id="Fill-987" fill="#314E55"></path>
+                <path d="M19,1241.95 L21,1241.95 L21,1254 L19,1254 L19,1241.95 Z" id="Fill-988" fill="#314E55"></path>
+                <path d="M19,1199.95 L21,1199.95 L21,1212 L19,1212 L19,1199.95 Z" id="Fill-989" fill="#314E55"></path>
+                <path d="M11,1241.95 L13,1241.95 L13,1254 L11,1254 L11,1241.95 Z" id="Fill-990" fill="#314E55"></path>
+                <path d="M43,1242 L55,1242 L55,1244 L43,1244 L43,1242 Z" id="Fill-991" fill="#314E55"></path>
+                <path d="M1,1234 L13,1234 L13,1236 L1,1236 L1,1234 Z" id="Fill-992" fill="#314E55"></path>
+                <path d="M43,1234 L55,1234 L55,1236 L43,1236 L43,1234 Z" id="Fill-993" fill="#314E55"></path>
+                <path d="M1,1226 L13,1226 L13,1228 L1,1228 L1,1226 Z" id="Fill-994" fill="#314E55"></path>
+                <path d="M43,1226 L55,1226 L55,1228 L43,1228 L43,1226 Z" id="Fill-995" fill="#314E55"></path>
+                <path d="M1,1218 L13,1218 L13,1220 L1,1220 L1,1218 Z" id="Fill-996" fill="#314E55"></path>
+                <path d="M43,1218 L55,1218 L55,1220 L43,1220 L43,1218 Z" id="Fill-997" fill="#314E55"></path>
+                <path d="M1,1210 L13,1210 L13,1212 L1,1212 L1,1210 Z" id="Fill-998" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

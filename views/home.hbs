@@ -1,25 +1,181 @@
 <div class="row">
-    <aside class="col-md-3 box">
-        <h2>Coming Soon</h2>
-        <p>Stay tuned for updates.</p>
-    </aside>
-    <section class="main col-md-8 box pull-right">
-        <article class="">
-            <h2>Welcome</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan libero a sem venenatis pharetra. Nulla
-                facilisi. In semper blandit arcu. Nullam vitae sem convallis, vehicula nisi eu, hendrerit justo. Pellentesque
-                libero neque, interdum nec diam bibendum, tristique pellentesque felis. Sed vel adipiscing lacus. Maecenas
-                porta dolor a turpis aliquet, eget posuere nisi fringilla. Aenean ac turpis tristique, feugiat mi sodales,
-                laoreet neque. Donec tristique nec quam sit amet sagittis. Mauris elementum ullamcorper risus at luctus.</p>
-            <p>Cras dui dui, suscipit ac massa et, fermentum lacinia lacus. Aliquam erat volutpat. Phasellus non tellus quis
-                quam eleifend laoreet. Etiam luctus augue nec lectus consequat euismod. Nulla tristique augue a urna eleifend
-                rutrum eget quis turpis. Curabitur consectetur aliquet lobortis. Donec id felis leo. Etiam ullamcorper augue
-                justo, vitae tincidunt ipsum gravida vitae. Donec orci justo, vehicula rutrum mattis et, ornare ullamcorper
-                mi. Mauris eget diam est.</p>
-            <p>Ut non diam varius ante dictum blandit nec in tortor. Pellentesque sodales vel elit eget cursus. In condimentum
-                consequat mauris vel bibendum. Curabitur feugiat nibh in sodales condimentum. In sit amet hendrerit massa,
-                sed porta ipsum, adipiscing laoreet quam.
-            </p>
-        </article>
-    </section>
+    <h1>Welcome!</h1>
+    <hr>
+    <br>
+    <div class="row">
+
+        <ul class="card-group">
+
+            <li>
+                <a href="/about">
+                    <div class="col-md-4">
+                        <div class="card padding-5">
+                            <div class="card-header-honeydew text-center align-content-center">
+                                <img src="/icons/Develop.svg" style="transform:scale(1.8)" />
+                            </div>
+                            <div class="card-body">
+                                <h3>About WEB 322</h3>
+                                <p>
+                                    Scope and Milestones of the Final Project.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="/employees/add">
+                    <div class="col-md-4">
+                        <div class="card padding-5">
+                            <div class="card-header-honeydew text-center align-content-center">
+                                <img src="/icons/Add.svg" style="transform:scale(1.8)" />
+                            </div>
+                            <div class="card-body">
+                                <h3>Add Employee</h3>
+                                <p>
+                                    Setup new employee profile.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+            </li>
+
+            <li>
+                <a href="/images/add">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header-honeydew text-center align-content-center">
+                                <img src="/icons/FBinterface.svg" style="transform:scale(1.8)" />
+                            </div>
+                            <div class="card-body">
+                                <h3>Add Image</h3>
+                                <p>
+                                    Upload images to our gallery.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+            </li>
+
+            <li>
+                <a href="/images">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header-honeydew text-center align-content-center">
+                                <img src="/icons/Freetransform.svg" style="transform:scale(1.8)" />
+                            </div>
+                            <div class="card-body">
+                                <h3>Uploaded Images</h3>
+                                <p>
+                                    Access gallery and browse the content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="/departments">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header-honeydew text-center align-content-center">
+                                <img src="/icons/Chat.svg" style="transform:scale(1.8)" />
+                            </div>
+                            <div class="card-body">
+                                <h3>All Employees</h3>
+                                <p>
+                                    See full list of current employees.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="/employees">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header-honeydew text-center align-content-center">
+                                <img src="/icons/Anchorcurve.svg" style="transform:scale(1.8)" />
+                            </div>
+                            <div class="card-body">
+                                <h3>Departments</h3>
+                                <p>
+                                    Access employees by department.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </li>
+
+        </ul>
+
+    </div>
 </div>
+
+<style>
+
+    ul.card-group {
+        padding: 0;
+        margin: 0;
+    }
+
+    ul.card-group li {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .card {
+        padding: 0pt;
+        margin-bottom: 25pt;
+        z-index: 2;
+        border-top: 4px solid #dbdbdb;
+        transition: box-shadow 1s ease;
+        box-shadow: 0 0 0em 99em rgba(0, 0, 0, 0.0);
+    }
+
+    .card:hover {
+        box-shadow: 0 0 0em 99em rgba(0, 0, 0, 0.8);
+        z-index: 3;
+        position: relative;
+        transition: box-shadow 1s ease;
+        transform: scale(1.01);
+    }
+
+    .card:active {
+        z-index: 4;
+        box-shadow: 0 0 0 99em rgba(0, 0, 0, 0.8);
+        transform: scale(0.99);
+    }
+
+    .card-header-honeydew {
+        height: 50pt;
+        background-color: honeydew;
+        border-bottom: 1pt solid lightgray;
+    }
+
+    .card-header-accent2 {
+        height: 50pt;
+        background-color #e4edf1;
+        border-bottom: 1pt solid lightgray;
+    }
+
+    .card-body {
+        height: 80pt;
+        background-color: white;
+        color: black;
+        margin-top: 0;
+        padding-top: 10pt;
+        text-align: center;
+    }
+</style>

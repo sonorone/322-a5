@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Stop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M26,52 C40.359,52 52,40.359 52,26 C52,11.641 40.359,0 26,0 C11.641,0 0,11.641 0,26 C0,40.359 11.641,52 26,52 L26,52 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-480.000000, -1080.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <g id="Group-959" transform="translate(482.000000, 1080.000000)">
+                    <mask id="mask-2" sketch:name="Clip 958" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-958"></g>
+                    <path d="M0,0 L52,0 L52,52 L0,52 L0,0 Z" id="Fill-957" fill="#E4AD40" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M508,1133 C493.112,1133 481,1120.888 481,1106 C481,1091.112 493.112,1079 508,1079 C522.888,1079 535,1091.112 535,1106 C535,1120.888 522.888,1133 508,1133 L508,1133 Z M508,1081 C494.215,1081 483,1092.215 483,1106 C483,1119.785 494.215,1131 508,1131 C521.785,1131 533,1119.785 533,1106 C533,1092.215 521.785,1081 508,1081 L508,1081 Z" id="Fill-960" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M508,1120 C507.447,1120 507,1119.552 507,1119 L507,1093 C507,1092.448 507.447,1092 508,1092 C508.553,1092 509,1092.448 509,1093 L509,1119 C509,1119.552 508.553,1120 508,1120" id="Fill-961" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

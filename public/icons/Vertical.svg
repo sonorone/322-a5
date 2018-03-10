@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Vertical</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-840.000000, -240.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M869,241 L894,241 L894,291 L869,291 L869,241 Z" id="Fill-267" fill="#D8D8D8"></path>
+                <path d="M894,292 L869,292 C868.447,292 868,291.552 868,291 L868,241 C868,240.448 868.447,240 869,240 L894,240 C894.553,240 895,240.448 895,241 L895,291 C895,291.552 894.553,292 894,292 L894,292 Z M870,290 L893,290 L893,242 L870,242 L870,290 Z" id="Fill-269" fill="#314E55"></path>
+                <path d="M844,241 L869,241 L869,291 L844,291 L844,241 Z" id="Fill-270" fill="#EBEBEB"></path>
+                <path d="M869,292 L844,292 C843.447,292 843,291.552 843,291 L843,241 C843,240.448 843.447,240 844,240 L869,240 C869.553,240 870,240.448 870,241 L870,291 C870,291.552 869.553,292 869,292 L869,292 Z M845,290 L868,290 L868,242 L845,242 L845,290 Z" id="Fill-272" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

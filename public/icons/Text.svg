@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Text</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-120.000000, -1320.000000)" fill="#314E55">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M147,1324 L149,1324 L149,1370.046 L147,1370.046 L147,1324 Z" id="Fill-1108"></path>
+                <path d="M169,1334 C168.617,1334 168.252,1333.779 168.086,1333.406 L164.35,1325 L131.65,1325 L127.914,1333.406 C127.689,1333.91 127.099,1334.138 126.594,1333.914 C126.089,1333.689 125.862,1333.099 126.086,1332.594 L130.086,1323.594 C130.247,1323.232 130.605,1323 131,1323 L165,1323 C165.395,1323 165.753,1323.232 165.914,1323.594 L169.914,1332.594 C170.138,1333.099 169.911,1333.689 169.406,1333.914 C169.274,1333.973 169.136,1334 169,1334" id="Fill-1109"></path>
+                <path d="M143,1368 L153,1368 L153,1370 L143,1370 L143,1368 Z" id="Fill-1110"></path>
+            </g>
+        </g>
+    </g>
+</svg>

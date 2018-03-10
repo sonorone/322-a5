@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Intersect</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M8,0 C8,0 5.454,2.546 4.181,3.819 L0,8 L8,0 Z"></path>
+        <path id="path-3" d="M8,0 C8,0 5.454,2.546 4.181,3.819 L0,8 L8,0 Z"></path>
+        <path id="path-5" d="M15.508,0.492 L0,16 L15.508,0.492 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-600.000000, -480.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <path d="M604,481 L637,481 L637,514 L604,514 L604,481 Z" id="Fill-463" fill="#EBEBEB" sketch:type="MSShapeGroup"></path>
+                <path d="M637,515 L604,515 C603.447,515 603,514.552 603,514 L603,481 C603,480.448 603.447,480 604,480 L637,480 C637.553,480 638,480.448 638,481 L638,514 C638,514.552 637.553,515 637,515 L637,515 Z M605,513 L636,513 L636,482 L605,482 L605,513 Z" id="Fill-465" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M621,498 L654,498 L654,531 L621,531 L621,498 Z" id="Fill-466" fill="#EBEBEB" sketch:type="MSShapeGroup"></path>
+                <path d="M654,532 L621,532 C620.447,532 620,531.552 620,531 L620,498 C620,497.448 620.447,497 621,497 L654,497 C654.553,497 655,497.448 655,498 L655,531 C655,531.552 654.553,532 654,532 L654,532 Z M622,530 L653,530 L653,499 L622,499 L622,530 Z" id="Fill-468" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M621,498 L637,498 L637,514 L621,514 L621,498 Z" id="Fill-469" fill="#5ECB66" sketch:type="MSShapeGroup"></path>
+                <path d="M637,515 L621,515 C620.447,515 620,514.552 620,514 L620,498 C620,497.448 620.447,497 621,497 L637,497 C637.553,497 638,497.448 638,498 L638,514 C638,514.552 637.553,515 637,515 L637,515 Z M622,513 L636,513 L636,499 L622,499 L622,513 Z" id="Fill-471" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-474" transform="translate(621.000000, 498.000000)">
+                    <mask id="mask-2" sketch:name="Clip 473" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-473"></g>
+                    <path d="M0,0 L8,0 L8,8 L0,8 L0,0 Z" id="Fill-472" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M621.707,506.707 L620.293,505.293 L628.293,497.293 L629.707,498.707 L621.707,506.707" id="Fill-475" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-478" transform="translate(629.000000, 506.000000)">
+                    <mask id="mask-4" sketch:name="Clip 477" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-477"></g>
+                    <path d="M0,0 L8,0 L8,8 L0,8 L0,0 Z" id="Fill-476" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                </g>
+                <path d="M629.707,514.707 L628.293,513.293 L636.293,505.293 L637.707,506.707 L629.707,514.707" id="Fill-479" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-482" transform="translate(621.000000, 498.000000)">
+                    <mask id="mask-6" sketch:name="Clip 481" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-481"></g>
+                    <path d="M0,0.492 L15.508,0.492 L15.508,16 L0,16 L0,0.492 Z" id="Fill-480" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-6)"></path>
+                </g>
+                <path d="M621,515 C620.744,515 620.488,514.902 620.293,514.707 C619.902,514.316 619.902,513.684 620.293,513.293 L635.801,497.785 C636.191,497.394 636.824,497.394 637.215,497.785 C637.606,498.175 637.606,498.808 637.215,499.199 L621.707,514.707 C621.512,514.902 621.256,515 621,515" id="Fill-483" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

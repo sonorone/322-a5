@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Typesizedown</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M5,8 L10,0 L0,0 L5,8 L5,8 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-720.000000, -1320.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <path d="M750,1324 L752,1324 L752,1370.046 L750,1370.046 L750,1324 Z" id="Fill-1161" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M772.001,1334 C771.617,1334 771.252,1333.779 771.086,1333.406 L767.351,1325 L734.649,1325 L730.914,1333.406 C730.689,1333.91 730.099,1334.14 729.594,1333.914 C729.089,1333.689 728.862,1333.099 729.086,1332.594 L733.086,1323.594 C733.247,1323.232 733.604,1323 734,1323 L768,1323 C768.396,1323 768.753,1323.232 768.914,1323.594 L772.914,1332.594 C773.138,1333.099 772.911,1333.689 772.406,1333.914 C772.274,1333.973 772.137,1334 772.001,1334" id="Fill-1162" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M746,1368 L756,1368 L756,1370 L746,1370 L746,1368 Z" id="Fill-1163" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1166" transform="translate(725.000000, 1361.000000)">
+                    <mask id="mask-2" sketch:name="Clip 1165" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-1165"></g>
+                    <path d="M0,0 L10,0 L10,8 L0,8 L0,0 Z" id="Fill-1164" fill="#F28544" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M730,1370 C729.655,1370 729.335,1369.822 729.152,1369.53 L724.152,1361.53 C723.959,1361.222 723.949,1360.833 724.125,1360.516 C724.302,1360.197 724.637,1360 725,1360 L735,1360 C735.363,1360 735.698,1360.197 735.875,1360.516 C736.051,1360.833 736.041,1361.222 735.848,1361.53 L730.848,1369.53 C730.665,1369.822 730.345,1370 730,1370 L730,1370 Z M726.805,1362 L730,1367.113 L733.195,1362 L726.805,1362 L726.805,1362 Z" id="Fill-1167" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M729,1342 L731,1342 L731,1362.027 L729,1362.027 L729,1342 Z" id="Fill-1168" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

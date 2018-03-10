@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Statsinterface</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M26,13 C26,20.18 20.18,26 13,26 C5.82,26 0,20.18 0,13 C0,6.157 5.288,0.548 12,0.038 L12,13 L26,13 L26,13 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-120.000000, -1920.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <path d="M121,1926 L175,1926 L175,1966 L121,1966 L121,1926 Z" id="Fill-1528" fill="#EBEBEB" sketch:type="MSShapeGroup"></path>
+                <path d="M175,1967 L121,1967 C120.448,1967 120,1966.553 120,1966 L120,1926 C120,1925.447 120.448,1925 121,1925 L175,1925 C175.552,1925 176,1925.447 176,1926 L176,1966 C176,1966.553 175.552,1967 175,1967 L175,1967 Z M122,1965 L174,1965 L174,1927 L122,1927 L122,1965 Z" id="Fill-1530" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1533" transform="translate(135.000000, 1933.000000)">
+                    <mask id="mask-2" sketch:name="Clip 1532" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-1532"></g>
+                    <path d="M0,0.038 L26,0.038 L26,26 L0,26 L0,0.038 Z" id="Fill-1531" fill="#F28544" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M148,1960 C140.28,1960 134,1953.72 134,1946 C134,1938.724 139.677,1932.593 146.924,1932.041 C147.203,1932.024 147.476,1932.115 147.68,1932.305 C147.884,1932.494 148,1932.76 148,1933.038 L148,1945 L161,1945 C161.552,1945 162,1945.447 162,1946 C162,1953.72 155.72,1960 148,1960 L148,1960 Z M146,1934.167 C140.313,1935.126 136,1940.128 136,1946 C136,1952.617 141.383,1958 148,1958 C154.28,1958 159.449,1953.15 159.958,1947 L147,1947 C146.448,1947 146,1946.553 146,1946 L146,1934.167 L146,1934.167 Z" id="Fill-1534" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M155,1932 L167,1932 L167,1934 L155,1934 L155,1932 Z" id="Fill-1535" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M124,1957 L134,1957 L134,1959 L124,1959 L124,1957 Z" id="Fill-1536" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M161,1955 L167,1955 L167,1957 L161,1957 L161,1955 Z" id="Fill-1537" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M161,1958 L167,1958 L167,1960 L161,1960 L161,1958 Z" id="Fill-1538" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M124,1961 L134,1961 L134,1963 L124,1963 L124,1961 Z" id="Fill-1539" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M155,1936 L160,1936 L160,1938 L155,1938 L155,1936 Z" id="Fill-1540" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

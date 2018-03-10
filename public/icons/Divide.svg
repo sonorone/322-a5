@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Divide</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M26,52 C40.359,52 52,40.359 52,26 C52,11.641 40.359,0 26,0 C11.641,0 0,11.641 0,26 C0,40.359 11.641,52 26,52 L26,52 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-720.000000, -1080.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <g id="Group-970" transform="translate(722.000000, 1081.000000)">
+                    <mask id="mask-2" sketch:name="Clip 969" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-969"></g>
+                    <path d="M0,0 L52,0 L52,52 L0,52 L0,0 Z" id="Fill-968" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M748,1134 C733.112,1134 721,1121.888 721,1107 C721,1092.112 733.112,1080 748,1080 C762.888,1080 775,1092.112 775,1107 C775,1121.888 762.888,1134 748,1134 L748,1134 Z M748,1082 C734.215,1082 723,1093.215 723,1107 C723,1120.785 734.215,1132 748,1132 C761.785,1132 773,1120.785 773,1107 C773,1093.215 761.785,1082 748,1082 L748,1082 Z" id="Fill-971" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M741.499,1119.259 C741.329,1119.259 741.157,1119.216 741,1119.125 C740.521,1118.849 740.357,1118.237 740.634,1117.759 L753.634,1095.242 C753.91,1094.763 754.522,1094.599 755,1094.875 C755.479,1095.152 755.643,1095.763 755.366,1096.242 L742.366,1118.759 C742.181,1119.08 741.845,1119.259 741.499,1119.259" id="Fill-972" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

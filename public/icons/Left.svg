@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-240.000000, -120.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M243,121 L293,121 L293,171 L243,171 L243,121 Z" id="Fill-137" fill="#E9E7D1"></path>
+                <path d="M293,172 L243,172 C242.448,172 242,171.552 242,171 L242,121 C242,120.448 242.448,120 243,120 L293,120 C293.552,120 294,120.448 294,121 L294,171 C294,171.552 293.552,172 293,172 L293,172 Z M244,170 L292,170 L292,122 L244,122 L244,170 Z" id="Fill-139" fill="#314E55"></path>
+                <path d="M249,145 L287,145 L287,147 L249,147 L249,145 Z" id="Fill-140" fill="#314E55"></path>
+                <path d="M249,127 L287,127 L287,129 L249,129 L249,127 Z" id="Fill-141" fill="#314E55"></path>
+                <path d="M249,163 L287,163 L287,165 L249,165 L249,163 Z" id="Fill-142" fill="#314E55"></path>
+                <path d="M249,136 L271,136 L271,138 L249,138 L249,136 Z" id="Fill-143" fill="#314E55"></path>
+                <path d="M249,154 L271,154 L271,156 L249,156 L249,154 Z" id="Fill-144" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

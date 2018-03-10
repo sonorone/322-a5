@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Rightsidebar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-120.000000, -360.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M157,386 L174,386 L174,411 L157,411 L157,386 Z" id="Fill-285" fill="#EBEBEB"></path>
+                <path d="M174,412 L157,412 C156.448,412 156,411.552 156,411 L156,386 C156,385.448 156.448,385 157,385 L174,385 C174.552,385 175,385.448 175,386 L175,411 C175,411.552 174.552,412 174,412 L174,412 Z M158,410 L173,410 L173,387 L158,387 L158,410 Z" id="Fill-287" fill="#314E55"></path>
+                <path d="M157,361 L174,361 L174,386 L157,386 L157,361 Z" id="Fill-288" fill="#D8D8D8"></path>
+                <path d="M174,387 L157,387 C156.448,387 156,386.552 156,386 L156,361 C156,360.448 156.448,360 157,360 L174,360 C174.552,360 175,360.448 175,361 L175,386 C175,386.552 174.552,387 174,387 L174,387 Z M158,385 L173,385 L173,362 L158,362 L158,385 Z" id="Fill-290" fill="#314E55"></path>
+                <path d="M140,361 L157,361 L157,411 L140,411 L140,361 Z" id="Fill-291" fill="#D8D8D8"></path>
+                <path d="M157,412 L140,412 C139.448,412 139,411.552 139,411 L139,361 C139,360.448 139.448,360 140,360 L157,360 C157.552,360 158,360.448 158,361 L158,411 C158,411.552 157.552,412 157,412 L157,412 Z M141,410 L156,410 L156,362 L141,362 L141,410 Z" id="Fill-293" fill="#314E55"></path>
+                <path d="M123,361 L140,361 L140,411 L123,411 L123,361 Z" id="Fill-294" fill="#EBEBEB"></path>
+                <path d="M140,412 L123,412 C122.448,412 122,411.552 122,411 L122,361 C122,360.448 122.448,360 123,360 L140,360 C140.552,360 141,360.448 141,361 L141,411 C141,411.552 140.552,412 140,412 L140,412 Z M124,410 L139,410 L139,362 L124,362 L124,410 Z" id="Fill-296" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

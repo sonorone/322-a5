@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Photogallery</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,1 L14,1 L13,0 L13,18 L14,17 L0,17 L1,18 L1,0 L0,1 L0,1 Z"></path>
+        <path id="path-3" d="M0,0 L14,0 L14,18 L0,18 L0,0 Z"></path>
+        <path id="path-5" d="M0,1 L14,1 L13,0 L13,14 L14,13 L0,13 L1,14 L1,0 L0,1 L0,1 Z"></path>
+        <path id="path-7" d="M0,0 L14,0 L14,14 L0,14 L0,0 Z"></path>
+        <path id="path-9" d="M0,1 L14,1 L13,0 L13,18 L14,17 L0,17 L1,18 L1,0 L0,1 L0,1 Z"></path>
+        <path id="path-11" d="M0,0 L14,0 L14,18 L0,18 L0,0 Z"></path>
+        <path id="path-13" d="M0,1 L14,1 L13,0 L13,14 L14,13 L0,13 L1,14 L1,0 L0,1 L0,1 Z"></path>
+        <path id="path-15" d="M0,0 L14,0 L14,14 L0,14 L0,0 Z"></path>
+        <path id="path-17" d="M0,1 L14,1 L13,0 L13,18 L14,17 L0,17 L1,18 L1,0 L0,1 L0,1 Z"></path>
+        <path id="path-19" d="M0,0 L14,0 L14,18 L0,18 L0,0 Z"></path>
+        <path id="path-21" d="M0,1 L14,1 L13,0 L13,14 L14,13 L0,13 L1,14 L1,0 L0,1 L0,1 Z"></path>
+        <path id="path-23" d="M0,0 L14,0 L14,14 L0,14 L0,0 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-360.000000, -2040.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <path d="M362,2046 L416,2046 L416,2086 L362,2086 L362,2046 Z" id="Fill-1739" fill="#EBEBEB" sketch:type="MSShapeGroup"></path>
+                <path d="M416,2087 L362,2087 C361.448,2087 361,2086.553 361,2086 L361,2046 C361,2045.447 361.448,2045 362,2045 L416,2045 C416.552,2045 417,2045.447 417,2046 L417,2086 C417,2086.553 416.552,2087 416,2087 L416,2087 Z M363,2085 L415,2085 L415,2047 L363,2047 L363,2085 Z" id="Fill-1741" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1744" transform="translate(365.000000, 2052.000000)">
+                    <mask id="mask-2" sketch:name="Clip 1743" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-1743"></g>
+                    <path d="M0,0 L14,0 L14,18 L0,18 L0,0 Z" id="Fill-1742" fill="#F28544" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <g id="Group-1747" transform="translate(365.000000, 2052.000000)">
+                    <mask id="mask-4" sketch:name="Clip 1746" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-1746"></g>
+                    <path d="M14,20 L0,20 C-1.104,20 -2,19.104 -2,18 L-2,0 C-2,-1.104 -1.104,-2 0,-2 L14,-2 C15.104,-2 16,-1.104 16,0 L16,18 C16,19.104 15.104,20 14,20 L14,20 Z M2,16 L12,16 L12,2 L2,2 L2,16 Z" id="Fill-1745" fill="#314E55" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                </g>
+                <g id="Group-1750" transform="translate(365.000000, 2073.000000)">
+                    <mask id="mask-6" sketch:name="Clip 1749" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-1749"></g>
+                    <path d="M0,0 L14,0 L14,14 L0,14 L0,0 Z" id="Fill-1748" fill="#F28544" sketch:type="MSShapeGroup" mask="url(#mask-6)"></path>
+                </g>
+                <g id="Group-1753" transform="translate(365.000000, 2073.000000)">
+                    <mask id="mask-8" sketch:name="Clip 1752" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="Clip-1752"></g>
+                    <path d="M14,16 L0,16 C-1.104,16 -2,15.104 -2,14 L-2,0 C-2,-1.104 -1.104,-2 0,-2 L14,-2 C15.104,-2 16,-1.104 16,0 L16,14 C16,15.104 15.104,16 14,16 L14,16 Z M2,12 L12,12 L12,2 L2,2 L2,12 Z" id="Fill-1751" fill="#314E55" sketch:type="MSShapeGroup" mask="url(#mask-8)"></path>
+                </g>
+                <g id="Group-1756" transform="translate(382.000000, 2052.000000)">
+                    <mask id="mask-10" sketch:name="Clip 1755" fill="white">
+                        <use xlink:href="#path-9"></use>
+                    </mask>
+                    <g id="Clip-1755"></g>
+                    <path d="M0,0 L14,0 L14,18 L0,18 L0,0 Z" id="Fill-1754" fill="#F28544" sketch:type="MSShapeGroup" mask="url(#mask-10)"></path>
+                </g>
+                <g id="Group-1759" transform="translate(382.000000, 2052.000000)">
+                    <mask id="mask-12" sketch:name="Clip 1758" fill="white">
+                        <use xlink:href="#path-11"></use>
+                    </mask>
+                    <g id="Clip-1758"></g>
+                    <path d="M14,20 L0,20 C-1.105,20 -2,19.104 -2,18 L-2,0 C-2,-1.104 -1.105,-2 0,-2 L14,-2 C15.104,-2 16,-1.104 16,0 L16,18 C16,19.104 15.104,20 14,20 L14,20 Z M2,16 L12,16 L12,2 L2,2 L2,16 Z" id="Fill-1757" fill="#314E55" sketch:type="MSShapeGroup" mask="url(#mask-12)"></path>
+                </g>
+                <g id="Group-1762" transform="translate(382.000000, 2073.000000)">
+                    <mask id="mask-14" sketch:name="Clip 1761" fill="white">
+                        <use xlink:href="#path-13"></use>
+                    </mask>
+                    <g id="Clip-1761"></g>
+                    <path d="M0,0 L14,0 L14,14 L0,14 L0,0 Z" id="Fill-1760" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-14)"></path>
+                </g>
+                <g id="Group-1765" transform="translate(382.000000, 2073.000000)">
+                    <mask id="mask-16" sketch:name="Clip 1764" fill="white">
+                        <use xlink:href="#path-15"></use>
+                    </mask>
+                    <g id="Clip-1764"></g>
+                    <path d="M14,16 L0,16 C-1.105,16 -2,15.104 -2,14 L-2,0 C-2,-1.104 -1.105,-2 0,-2 L14,-2 C15.104,-2 16,-1.104 16,0 L16,14 C16,15.104 15.104,16 14,16 L14,16 Z M2,12 L12,12 L12,2 L2,2 L2,12 Z" id="Fill-1763" fill="#314E55" sketch:type="MSShapeGroup" mask="url(#mask-16)"></path>
+                </g>
+                <g id="Group-1768" transform="translate(399.000000, 2052.000000)">
+                    <mask id="mask-18" sketch:name="Clip 1767" fill="white">
+                        <use xlink:href="#path-17"></use>
+                    </mask>
+                    <g id="Clip-1767"></g>
+                    <path d="M0,0 L14,0 L14,18 L0,18 L0,0 Z" id="Fill-1766" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-18)"></path>
+                </g>
+                <g id="Group-1771" transform="translate(399.000000, 2052.000000)">
+                    <mask id="mask-20" sketch:name="Clip 1770" fill="white">
+                        <use xlink:href="#path-19"></use>
+                    </mask>
+                    <g id="Clip-1770"></g>
+                    <path d="M14,20 L0,20 C-1.105,20 -2,19.104 -2,18 L-2,0 C-2,-1.104 -1.105,-2 0,-2 L14,-2 C15.104,-2 16,-1.104 16,0 L16,18 C16,19.104 15.104,20 14,20 L14,20 Z M2,16 L12,16 L12,2 L2,2 L2,16 Z" id="Fill-1769" fill="#314E55" sketch:type="MSShapeGroup" mask="url(#mask-20)"></path>
+                </g>
+                <g id="Group-1774" transform="translate(399.000000, 2073.000000)">
+                    <mask id="mask-22" sketch:name="Clip 1773" fill="white">
+                        <use xlink:href="#path-21"></use>
+                    </mask>
+                    <g id="Clip-1773"></g>
+                    <path d="M0,0 L14,0 L14,14 L0,14 L0,0 Z" id="Fill-1772" fill="#F28544" sketch:type="MSShapeGroup" mask="url(#mask-22)"></path>
+                </g>
+                <g id="Group-1777" transform="translate(399.000000, 2073.000000)">
+                    <mask id="mask-24" sketch:name="Clip 1776" fill="white">
+                        <use xlink:href="#path-23"></use>
+                    </mask>
+                    <g id="Clip-1776"></g>
+                    <path d="M14,16 L0,16 C-1.105,16 -2,15.104 -2,14 L-2,0 C-2,-1.104 -1.105,-2 0,-2 L14,-2 C15.104,-2 16,-1.104 16,0 L16,14 C16,15.104 15.104,16 14,16 L14,16 Z M2,12 L12,12 L12,2 L2,2 L2,12 Z" id="Fill-1775" fill="#314E55" sketch:type="MSShapeGroup" mask="url(#mask-24)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

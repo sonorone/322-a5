@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Forceright</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-840.000000, -120.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M843,122 L893,122 L893,172 L843,172 L843,122 Z" id="Fill-179" fill="#E9E7D1"></path>
+                <path d="M893,173 L843,173 C842.447,173 842,172.552 842,172 L842,122 C842,121.448 842.447,121 843,121 L893,121 C893.553,121 894,121.448 894,122 L894,172 C894,172.552 893.553,173 893,173 L893,173 Z M844,171 L892,171 L892,123 L844,123 L844,171 Z" id="Fill-181" fill="#314E55"></path>
+                <path d="M858.971,146 L873.487,146 L873.487,148 L858.971,148 L858.971,146 Z" id="Fill-182" fill="#314E55"></path>
+                <path d="M848.958,155 L873.486,155 L873.486,157 L848.958,157 L848.958,155 Z" id="Fill-183" fill="#314E55"></path>
+                <path d="M848.958,128 L873.486,128 L873.486,130 L848.958,130 L848.958,128 Z" id="Fill-184" fill="#314E55"></path>
+                <path d="M877,125 L879,125 L879,169 L877,169 L877,125 Z" id="Fill-185" fill="#314E55"></path>
+                <path d="M858.971,164 L873.487,164 L873.487,166 L858.971,166 L858.971,164 Z" id="Fill-186" fill="#314E55"></path>
+                <path d="M848.958,137 L873.486,137 L873.486,139 L848.958,139 L848.958,137 Z" id="Fill-187" fill="#314E55"></path>
+                <path d="M888,153.657 C887.744,153.657 887.488,153.559 887.293,153.364 L881.636,147.707 C881.448,147.519 881.343,147.265 881.343,147 C881.343,146.734 881.448,146.48 881.636,146.292 L887.293,140.636 C887.684,140.245 888.316,140.245 888.707,140.636 C889.098,141.026 889.098,141.659 888.707,142.05 L883.757,147 L888.707,151.95 C889.098,152.34 889.098,152.973 888.707,153.364 C888.512,153.559 888.256,153.657 888,153.657" id="Fill-188" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

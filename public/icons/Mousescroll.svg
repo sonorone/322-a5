@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Mousescroll</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,10 C0,4.477 4.48,0 9.994,0 L24.006,0 C29.525,0 34,4.476 34,10 L34,20 L0,20 L0,10 L0,10 Z"></path>
+        <path id="path-3" d="M0,16.5 C0,25.613 7.378,33 16.502,33 L17.498,33 C26.612,33 34,25.615 34,16.5 L34,0 L0,0 L0,16.5 L0,16.5 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-240.000000, -1440.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <g id="Group-1189" transform="translate(252.000000, 1440.000000)">
+                    <mask id="mask-2" sketch:name="Clip 1188" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-1188"></g>
+                    <path d="M0,0 L34,0 L34,20 L0,20 L0,0 Z" id="Fill-1187" fill="#E9E7D1" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M286,1461 L252,1461 C251.448,1461 251,1460.553 251,1460 L251,1450 C251,1443.935 255.932,1439 261.994,1439 L276.006,1439 C282.068,1439 287,1443.935 287,1450 L287,1460 C287,1460.553 286.552,1461 286,1461 L286,1461 Z M253,1459 L285,1459 L285,1450 C285,1445.037 280.965,1441 276.006,1441 L261.994,1441 C257.035,1441 253,1445.037 253,1450 L253,1459 L253,1459 Z" id="Fill-1190" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1193" transform="translate(252.000000, 1460.000000)">
+                    <mask id="mask-4" sketch:name="Clip 1192" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-1192"></g>
+                    <path d="M0,0 L34,0 L34,33 L0,33 L0,0 Z" id="Fill-1191" fill="#E9E7D1" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                </g>
+                <path d="M269.498,1494 L268.502,1494 C258.852,1494 251,1486.149 251,1476.5 L251,1460 C251,1459.447 251.448,1459 252,1459 L286,1459 C286.552,1459 287,1459.447 287,1460 L287,1476.5 C287,1486.149 279.148,1494 269.498,1494 L269.498,1494 Z M253,1461 L253,1476.5 C253,1485.047 259.954,1492 268.502,1492 L269.498,1492 C278.046,1492 285,1485.047 285,1476.5 L285,1461 L253,1461 L253,1461 Z" id="Fill-1194" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M269,1456.056 C268.448,1456.056 268,1455.608 268,1455.056 L268,1446 C268,1445.447 268.448,1445 269,1445 C269.552,1445 270,1445.447 270,1446 L270,1455.056 C270,1455.608 269.552,1456.056 269,1456.056" id="Fill-1195" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Croper</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-120.000000, -1200.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M132,1210 L164,1210 L164,1242 L132,1242 L132,1210 Z" id="Fill-999" fill="#E4AD40"></path>
+                <path d="M164,1243 L132,1243 C131.448,1243 131,1242.553 131,1242 L131,1210 C131,1209.448 131.448,1209 132,1209 L164,1209 C164.552,1209 165,1209.448 165,1210 L165,1242 C165,1242.553 164.552,1243 164,1243 L164,1243 Z M133,1241 L163,1241 L163,1211 L133,1211 L133,1241 Z" id="Fill-1001" fill="#314E55"></path>
+                <path d="M163,1198.95 L165,1198.95 L165,1211 L163,1211 L163,1198.95 Z" id="Fill-1002" fill="#314E55"></path>
+                <path d="M163,1240.95 L165,1240.95 L165,1253 L163,1253 L163,1240.95 Z" id="Fill-1003" fill="#314E55"></path>
+                <path d="M131,1198.95 L133,1198.95 L133,1211 L131,1211 L131,1198.95 Z" id="Fill-1004" fill="#314E55"></path>
+                <path d="M131,1240.95 L133,1240.95 L133,1253 L131,1253 L131,1240.95 Z" id="Fill-1005" fill="#314E55"></path>
+                <path d="M163,1241 L175,1241 L175,1243 L163,1243 L163,1241 Z" id="Fill-1006" fill="#314E55"></path>
+                <path d="M121,1241 L133,1241 L133,1243 L121,1243 L121,1241 Z" id="Fill-1007" fill="#314E55"></path>
+                <path d="M163,1209 L175,1209 L175,1211 L163,1211 L163,1209 Z" id="Fill-1008" fill="#314E55"></path>
+                <path d="M121,1209 L133,1209 L133,1211 L121,1211 L121,1209 Z" id="Fill-1009" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

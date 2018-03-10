@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Orientation</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M24,27 L24,0 L0,0 L0,34 L17,34 L17,27 L24,27 L24,27 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-840.000000, -960.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <g id="Group-927" transform="translate(842.000000, 960.000000)">
+                    <mask id="mask-2" sketch:name="Clip 926" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-926"></g>
+                    <path d="M0,0 L24,0 L24,34 L0,34 L0,0 Z" id="Fill-925" fill="#73C9C9" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M859,995 L842,995 C841.447,995 841,994.552 841,994 L841,960 C841,959.448 841.447,959 842,959 L866,959 C866.553,959 867,959.448 867,960 L867,987 C867,987.552 866.553,988 866,988 L860,988 L860,994 C860,994.552 859.553,995 859,995 L859,995 Z M843,993 L858,993 L858,987 C858,986.448 858.447,986 859,986 L865,986 L865,961 L843,961 L843,993 L843,993 Z" id="Fill-928" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M859,987 L893,987 L893,1011 L859,1011 L859,987 Z" id="Fill-929" fill="#F28544" sketch:type="MSShapeGroup"></path>
+                <path d="M893,1012 L859,1012 C858.447,1012 858,1011.552 858,1011 L858,987 C858,986.448 858.447,986 859,986 L893,986 C893.553,986 894,986.448 894,987 L894,1011 C894,1011.552 893.553,1012 893,1012 L893,1012 Z M860,1010 L892,1010 L892,988 L860,988 L860,1010 Z" id="Fill-931" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M887,978 C886.447,978 886,977.552 886,977 C886,972.038 881.963,968 877,968 C876.447,968 876,967.552 876,967 C876,966.448 876.447,966 877,966 C883.065,966 888,970.935 888,977 C888,977.552 887.553,978 887,978" id="Fill-932" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M877,972.243 C876.744,972.243 876.488,972.145 876.293,971.95 L872.051,967.707 C871.66,967.316 871.66,966.684 872.051,966.293 L876.293,962.05 C876.684,961.66 877.316,961.66 877.707,962.05 C878.098,962.441 878.098,963.074 877.707,963.464 L874.172,967 L877.707,970.536 C878.098,970.926 878.098,971.559 877.707,971.95 C877.512,972.145 877.256,972.243 877,972.243" id="Fill-933" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M887,982.243 C886.734,982.243 886.48,982.138 886.293,981.95 L882.051,977.708 C881.66,977.317 881.66,976.684 882.051,976.293 C882.441,975.903 883.074,975.903 883.465,976.293 L887,979.829 L890.535,976.293 C890.926,975.903 891.559,975.903 891.949,976.293 C892.34,976.684 892.34,977.317 891.949,977.708 L887.707,981.95 C887.519,982.138 887.266,982.243 887,982.243" id="Fill-934" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Vertically</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-120.000000, -720.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M132,739 L166,739 L166,749 L132,749 L132,739 Z" id="Fill-695" fill="#81A4E3"></path>
+                <path d="M166,750 L132,750 C131.448,750 131,749.552 131,749 L131,739 C131,738.448 131.448,738 132,738 L166,738 C166.552,738 167,738.448 167,739 L167,749 C167,749.552 166.552,750 166,750 L166,750 Z M133,748 L165,748 L165,740 L133,740 L133,748 Z" id="Fill-697" fill="#314E55"></path>
+                <path d="M122,730 L174.01,730 L174.01,732 L122,732 L122,730 Z" id="Fill-698" fill="#314E55"></path>
+                <path d="M122,756 L174.01,756 L174.01,758 L122,758 L122,756 Z" id="Fill-699" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

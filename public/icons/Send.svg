@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Send</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M3.562,0.955 L0.617,14.343 L8.862,9.687 L3.562,0.955 Z"></path>
+        <path id="path-3" d="M0.973,20.955 L13.339,39 L33.951,0 L0.973,20.955 Z"></path>
+        <path id="path-5" d="M0.951,14.552 L53.951,0 L20.973,20.955 L0.951,14.552 L0.951,14.552 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-600.000000, -2400.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <g id="Group-2205" transform="translate(619.000000, 2429.000000)">
+                    <mask id="mask-2" sketch:name="Clip 2204" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2204"></g>
+                    <path d="M0.617,0.955 L8.862,0.955 L8.862,14.343 L0.617,14.343 L0.617,0.955 Z" id="Fill-2203" fill="#81A4E3" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M619.617,2444.344 C619.407,2444.344 619.198,2444.277 619.023,2444.147 C618.705,2443.913 618.556,2443.515 618.641,2443.129 L621.585,2429.74 C621.703,2429.2 622.237,2428.862 622.776,2428.979 C623.315,2429.097 623.657,2429.631 623.538,2430.17 L621.075,2441.372 L627.369,2437.815 C627.849,2437.547 628.459,2437.713 628.732,2438.194 C629.004,2438.676 628.834,2439.285 628.354,2439.558 L620.109,2444.215 C619.956,2444.301 619.786,2444.344 619.617,2444.344" id="Fill-2206" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-2209" transform="translate(621.000000, 2409.000000)">
+                    <mask id="mask-4" sketch:name="Clip 2208" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-2208"></g>
+                    <path d="M0.973,0 L33.951,0 L33.951,39 L0.973,39 L0.973,0 Z" id="Fill-2207" fill="#81A4E3" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                </g>
+                <path d="M634.34,2449 C634.011,2449 633.702,2448.838 633.515,2448.565 L621.148,2430.521 C620.836,2430.064 620.952,2429.442 621.407,2429.13 C621.863,2428.818 622.484,2428.935 622.798,2429.39 L634.229,2446.069 L654.066,2408.533 C654.323,2408.045 654.93,2407.856 655.417,2408.116 C655.905,2408.374 656.093,2408.979 655.834,2409.467 L635.224,2448.467 C635.06,2448.776 634.747,2448.978 634.398,2448.998 C634.378,2448.999 634.358,2449 634.34,2449" id="Fill-2210" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-2213" transform="translate(601.000000, 2409.000000)">
+                    <mask id="mask-6" sketch:name="Clip 2212" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-2212"></g>
+                    <path d="M0.951,0 L53.951,0 L53.951,20.955 L0.951,20.955 L0.951,0 Z" id="Fill-2211" fill="#81A4E3" sketch:type="MSShapeGroup" mask="url(#mask-6)"></path>
+                </g>
+                <path d="M621.973,2430.955 C621.87,2430.955 621.768,2430.939 621.668,2430.907 L601.646,2424.505 C601.224,2424.37 600.941,2423.975 600.95,2423.532 C600.96,2423.09 601.259,2422.706 601.685,2422.589 L654.685,2408.036 C655.159,2407.904 655.664,2408.141 655.864,2408.595 C656.065,2409.048 655.904,2409.578 655.486,2409.844 L622.509,2430.799 C622.347,2430.902 622.16,2430.955 621.973,2430.955 L621.973,2430.955 Z M605.462,2423.626 L621.831,2428.86 L648.793,2411.727 L605.462,2423.626 L605.462,2423.626 Z" id="Fill-2214" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

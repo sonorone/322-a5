@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Paragraph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,11 C0,4.925 4.921,0 11.001,0 L27,0 L27,22 L11.001,22 C4.925,22 0,17.076 0,11 L0,11 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(0.000000, -1320.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <path d="M44,1370 C43.448,1370 43,1369.553 43,1369 L43,1324 L35,1324 L35,1369 C35,1369.553 34.552,1370 34,1370 C33.448,1370 33,1369.553 33,1369 L33,1323 C33,1322.447 33.448,1322 34,1322 L44,1322 C44.552,1322 45,1322.447 45,1323 L45,1369 C45,1369.553 44.552,1370 44,1370" id="Fill-1103" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1106" transform="translate(7.000000, 1323.000000)">
+                    <mask id="mask-2" sketch:name="Clip 1105" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-1105"></g>
+                    <path d="M0,0 L27,0 L27,22 L0,22 L0,0 Z" id="Fill-1104" fill="#81A4E3" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M34,1346 L18.001,1346 C11.384,1346 6,1340.617 6,1334 C6,1327.383 11.384,1322 18.001,1322 L34,1322 C34.552,1322 35,1322.447 35,1323 L35,1345 C35,1345.553 34.552,1346 34,1346 L34,1346 Z M18.001,1324 C12.487,1324 8,1328.486 8,1334 C8,1339.514 12.487,1344 18.001,1344 L33,1344 L33,1324 L18.001,1324 L18.001,1324 Z" id="Fill-1107" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

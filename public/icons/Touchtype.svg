@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Touchtype</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M3,6 C4.657,6 6,4.657 6,3 C6,1.343 4.657,0 3,0 C1.343,0 0,1.343 0,3 C0,4.657 1.343,6 3,6 L3,6 Z"></path>
+        <path id="path-3" d="M3,6 C4.657,6 6,4.657 6,3 C6,1.343 4.657,0 3,0 C1.343,0 0,1.343 0,3 C0,4.657 1.343,6 3,6 L3,6 Z"></path>
+        <path id="path-5" d="M3,6 C4.657,6 6,4.657 6,3 C6,1.343 4.657,0 3,0 C1.343,0 0,1.343 0,3 C0,4.657 1.343,6 3,6 L3,6 Z"></path>
+        <path id="path-7" d="M3,6 C4.657,6 6,4.657 6,3 C6,1.343 4.657,0 3,0 C1.343,0 0,1.343 0,3 C0,4.657 1.343,6 3,6 L3,6 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-480.000000, -1320.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <path d="M487,1325 L529,1325 L529,1367 L487,1367 L487,1325 Z" id="Fill-1131" fill="#81A4E3" sketch:type="MSShapeGroup"></path>
+                <path d="M529,1368 L487,1368 C486.447,1368 486,1367.553 486,1367 L486,1325 C486,1324.447 486.447,1324 487,1324 L529,1324 C529.553,1324 530,1324.447 530,1325 L530,1367 C530,1367.553 529.553,1368 529,1368 L529,1368 Z M488,1366 L528,1366 L528,1326 L488,1326 L488,1366 Z" id="Fill-1133" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M507,1330 L509,1330 L509,1362.016 L507,1362.016 L507,1330 Z" id="Fill-1134" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M525,1340 C524.59,1340 524.206,1339.746 524.059,1339.339 L521.059,1331 L494.941,1331 L491.941,1339.339 C491.754,1339.857 491.182,1340.128 490.661,1339.941 C490.142,1339.754 489.872,1339.181 490.059,1338.661 L493.297,1329.661 C493.44,1329.265 493.816,1329 494.238,1329 L521.762,1329 C522.184,1329 522.56,1329.265 522.703,1329.661 L525.941,1338.661 C526.128,1339.181 525.858,1339.754 525.339,1339.941 C525.227,1339.981 525.112,1340 525,1340" id="Fill-1135" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M504,1361 L512,1361 L512,1363 L504,1363 L504,1361 Z" id="Fill-1136" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1139" transform="translate(529.000000, 1319.000000)">
+                    <mask id="mask-2" sketch:name="Clip 1138" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-1138"></g>
+                    <path d="M0,0 L6,0 L6,6 L0,6 L0,0 Z" id="Fill-1137" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M532,1326 C529.794,1326 528,1324.206 528,1322 C528,1319.794 529.794,1318 532,1318 C534.206,1318 536,1319.794 536,1322 C536,1324.206 534.206,1326 532,1326 L532,1326 Z M532,1320 C530.898,1320 530,1320.897 530,1322 C530,1323.103 530.898,1324 532,1324 C533.102,1324 534,1323.103 534,1322 C534,1320.897 533.102,1320 532,1320 L532,1320 Z" id="Fill-1140" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1143" transform="translate(481.000000, 1319.000000)">
+                    <mask id="mask-4" sketch:name="Clip 1142" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-1142"></g>
+                    <path d="M0,0 L6,0 L6,6 L0,6 L0,0 Z" id="Fill-1141" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                </g>
+                <path d="M484,1326 C481.794,1326 480,1324.206 480,1322 C480,1319.794 481.794,1318 484,1318 C486.206,1318 488,1319.794 488,1322 C488,1324.206 486.206,1326 484,1326 L484,1326 Z M484,1320 C482.897,1320 482,1320.897 482,1322 C482,1323.103 482.897,1324 484,1324 C485.102,1324 486,1323.103 486,1322 C486,1320.897 485.102,1320 484,1320 L484,1320 Z" id="Fill-1144" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1147" transform="translate(529.000000, 1367.000000)">
+                    <mask id="mask-6" sketch:name="Clip 1146" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-1146"></g>
+                    <path d="M0,0 L6,0 L6,6 L0,6 L0,0 Z" id="Fill-1145" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-6)"></path>
+                </g>
+                <path d="M532,1374 C529.794,1374 528,1372.206 528,1370 C528,1367.794 529.794,1366 532,1366 C534.206,1366 536,1367.794 536,1370 C536,1372.206 534.206,1374 532,1374 L532,1374 Z M532,1368 C530.898,1368 530,1368.897 530,1370 C530,1371.103 530.898,1372 532,1372 C533.102,1372 534,1371.103 534,1370 C534,1368.897 533.102,1368 532,1368 L532,1368 Z" id="Fill-1148" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1151" transform="translate(481.000000, 1367.000000)">
+                    <mask id="mask-8" sketch:name="Clip 1150" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="Clip-1150"></g>
+                    <path d="M0,0 L6,0 L6,6 L0,6 L0,0 Z" id="Fill-1149" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-8)"></path>
+                </g>
+                <path d="M484,1374 C481.794,1374 480,1372.206 480,1370 C480,1367.794 481.794,1366 484,1366 C486.206,1366 488,1367.794 488,1370 C488,1372.206 486.206,1374 484,1374 L484,1374 Z M484,1368 C482.897,1368 482,1368.897 482,1370 C482,1371.103 482.897,1372 484,1372 C485.102,1372 486,1371.103 486,1370 C486,1368.897 485.102,1368 484,1368 L484,1368 Z" id="Fill-1152" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

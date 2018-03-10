@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Leftsidebar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(0.000000, -360.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M3,386 L20,386 L20,411 L3,411 L3,386 Z" id="Fill-273" fill="#D8D8D8"></path>
+                <path d="M20,412 L3,412 C2.448,412 2,411.552 2,411 L2,386 C2,385.448 2.448,385 3,385 L20,385 C20.552,385 21,385.448 21,386 L21,411 C21,411.552 20.552,412 20,412 L20,412 Z M4,410 L19,410 L19,387 L4,387 L4,410 Z" id="Fill-275" fill="#314E55"></path>
+                <path d="M3,361 L20,361 L20,386 L3,386 L3,361 Z" id="Fill-276" fill="#D8D8D8"></path>
+                <path d="M20,387 L3,387 C2.448,387 2,386.552 2,386 L2,361 C2,360.448 2.448,360 3,360 L20,360 C20.552,360 21,360.448 21,361 L21,386 C21,386.552 20.552,387 20,387 L20,387 Z M4,385 L19,385 L19,362 L4,362 L4,385 Z" id="Fill-278" fill="#314E55"></path>
+                <path d="M20,361 L37,361 L37,411 L20,411 L20,361 Z" id="Fill-279" fill="#EBEBEB"></path>
+                <path d="M37,412 L20,412 C19.448,412 19,411.552 19,411 L19,361 C19,360.448 19.448,360 20,360 L37,360 C37.552,360 38,360.448 38,361 L38,411 C38,411.552 37.552,412 37,412 L37,412 Z M21,410 L36,410 L36,362 L21,362 L21,410 Z" id="Fill-281" fill="#314E55"></path>
+                <path d="M37,361 L54,361 L54,411 L37,411 L37,361 Z" id="Fill-282" fill="#D8D8D8"></path>
+                <path d="M54,412 L37,412 C36.448,412 36,411.552 36,411 L36,361 C36,360.448 36.448,360 37,360 L54,360 C54.552,360 55,360.448 55,361 L55,411 C55,411.552 54.552,412 54,412 L54,412 Z M38,410 L53,410 L53,362 L38,362 L38,410 Z" id="Fill-284" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

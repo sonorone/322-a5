@@ -91,15 +91,15 @@ tbody td {
   font-size: 10pt;
 }
 
-li {
+.navbar li {
   transition: all 0.3s ease-out;
 }
 
-li.active {
+.navbar li.active {
   border-bottom: solid 3px rgb(51, 38, 235);
   margin-bottom: -5pt;
 }
-li:hover {
+.navbar li:hover {
   border-bottom: solid 3px rgba(0, 80, 253, 1);
   margin-bottom: -5pt;
 }

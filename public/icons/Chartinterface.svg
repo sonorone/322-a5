@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Chartinterface</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,3.009 C0,1.347 1.346,0 3,0 C4.657,0 6,1.337 6,3.009 L6,16 L0,16 L0,3.009 L0,3.009 Z"></path>
+        <path id="path-3" d="M0,3.001 C0,1.343 1.346,0 3,0 C4.657,0 6,1.352 6,3.001 L6,31 L0,31 L0,3.001 L0,3.001 Z"></path>
+        <path id="path-5" d="M0,2.991 C0,1.339 1.346,0 3,0 C4.657,0 6,1.344 6,2.991 L6,25 L0,25 L0,2.991 L0,2.991 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-840.000000, -2040.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <path d="M842,2046 L896,2046 L896,2086 L842,2086 L842,2046 Z" id="Fill-1874" fill="#EBEBEB" sketch:type="MSShapeGroup"></path>
+                <path d="M896,2087 L842,2087 C841.447,2087 841,2086.553 841,2086 L841,2046 C841,2045.447 841.447,2045 842,2045 L896,2045 C896.553,2045 897,2045.447 897,2046 L897,2086 C897,2086.553 896.553,2087 896,2087 L896,2087 Z M843,2085 L895,2085 L895,2047 L843,2047 L843,2085 Z" id="Fill-1876" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1879" transform="translate(850.000000, 2070.000000)">
+                    <mask id="mask-2" sketch:name="Clip 1878" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-1878"></g>
+                    <path d="M0,0 L6,0 L6,16 L0,16 L0,0 Z" id="Fill-1877" fill="#73C9C9" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M856,2087 L850,2087 C849.447,2087 849,2086.553 849,2086 L849,2073.01 C849,2070.799 850.794,2069 853,2069 C855.206,2069 857,2070.799 857,2073.01 L857,2086 C857,2086.553 856.553,2087 856,2087 L856,2087 Z M851,2085 L855,2085 L855,2073.01 C855,2071.901 854.102,2071 853,2071 C851.898,2071 851,2071.901 851,2073.01 L851,2085 L851,2085 Z" id="Fill-1880" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1883" transform="translate(861.000000, 2055.000000)">
+                    <mask id="mask-4" sketch:name="Clip 1882" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-1882"></g>
+                    <path d="M0,0 L6,0 L6,31 L0,31 L0,0 Z" id="Fill-1881" fill="#EB86A5" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                </g>
+                <path d="M867,2087 L861,2087 C860.447,2087 860,2086.553 860,2086 L860,2058.001 C860,2055.795 861.794,2054 864,2054 C866.206,2054 868,2055.795 868,2058.001 L868,2086 C868,2086.553 867.553,2087 867,2087 L867,2087 Z M862,2085 L866,2085 L866,2058.001 C866,2056.897 865.102,2056 864,2056 C862.897,2056 862,2056.897 862,2058.001 L862,2085 L862,2085 Z" id="Fill-1884" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1887" transform="translate(872.000000, 2061.000000)">
+                    <mask id="mask-6" sketch:name="Clip 1886" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-1886"></g>
+                    <path d="M0,0 L6,0 L6,25 L0,25 L0,0 Z" id="Fill-1885" fill="#81A4E3" sketch:type="MSShapeGroup" mask="url(#mask-6)"></path>
+                </g>
+                <path d="M878,2087 L872,2087 C871.447,2087 871,2086.553 871,2086 L871,2063.991 C871,2061.79 872.794,2060 875,2060 C877.206,2060 879,2061.79 879,2063.991 L879,2086 C879,2086.553 878.553,2087 878,2087 L878,2087 Z M873,2085 L877,2085 L877,2063.991 C877,2062.894 876.102,2062 875,2062 C873.897,2062 873,2062.894 873,2063.991 L873,2085 L873,2085 Z" id="Fill-1888" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M881,2054 L891,2054 L891,2056 L881,2056 L881,2054 Z" id="Fill-1889" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M846,2064 L856,2064 L856,2066 L846,2066 L846,2064 Z" id="Fill-1890" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M881,2058 L887,2058 L887,2060 L881,2060 L881,2058 Z" id="Fill-1891" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>3gridgright</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-600.000000, -240.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M629,266 L654,266 L654,291 L629,291 L629,266 Z" id="Fill-252" fill="#D8D8D8"></path>
+                <path d="M654,292 L629,292 C628.447,292 628,291.552 628,291 L628,266 C628,265.448 628.447,265 629,265 L654,265 C654.553,265 655,265.448 655,266 L655,291 C655,291.552 654.553,292 654,292 L654,292 Z M630,290 L653,290 L653,267 L630,267 L630,290 Z" id="Fill-254" fill="#314E55"></path>
+                <path d="M629,241 L654,241 L654,266 L629,266 L629,241 Z" id="Fill-255" fill="#D8D8D8"></path>
+                <path d="M654,267 L629,267 C628.447,267 628,266.552 628,266 L628,241 C628,240.448 628.447,240 629,240 L654,240 C654.553,240 655,240.448 655,241 L655,266 C655,266.552 654.553,267 654,267 L654,267 Z M630,265 L653,265 L653,242 L630,242 L630,265 Z" id="Fill-257" fill="#314E55"></path>
+                <path d="M604,241 L629,241 L629,291 L604,291 L604,241 Z" id="Fill-258" fill="#EBEBEB"></path>
+                <path d="M629,292 L604,292 C603.447,292 603,291.552 603,291 L603,241 C603,240.448 603.447,240 604,240 L629,240 C629.553,240 630,240.448 630,241 L630,291 C630,291.552 629.553,292 629,292 L629,292 Z M605,290 L628,290 L628,242 L605,242 L605,290 Z" id="Fill-260" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

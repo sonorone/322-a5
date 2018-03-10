@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Selection</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(0.000000, -600.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M2,600 L14,600 L14,612 L2,612 L2,600 Z" id="Fill-539" fill="#E65F58"></path>
+                <path d="M14,613 L2,613 C1.448,613 1,612.552 1,612 L1,600 C1,599.448 1.448,599 2,599 L14,599 C14.552,599 15,599.448 15,600 L15,612 C15,612.552 14.552,613 14,613 L14,613 Z M3,611 L13,611 L13,601 L3,601 L3,611 Z" id="Fill-541" fill="#314E55"></path>
+                <path d="M2,640 L14,640 L14,652 L2,652 L2,640 Z" id="Fill-542" fill="#E65F58"></path>
+                <path d="M14,653 L2,653 C1.448,653 1,652.552 1,652 L1,640 C1,639.448 1.448,639 2,639 L14,639 C14.552,639 15,639.448 15,640 L15,652 C15,652.552 14.552,653 14,653 L14,653 Z M3,651 L13,651 L13,641 L3,641 L3,651 Z" id="Fill-544" fill="#314E55"></path>
+                <path d="M42,600 L54,600 L54,612 L42,612 L42,600 Z" id="Fill-545" fill="#E65F58"></path>
+                <path d="M54,613 L42,613 C41.448,613 41,612.552 41,612 L41,600 C41,599.448 41.448,599 42,599 L54,599 C54.552,599 55,599.448 55,600 L55,612 C55,612.552 54.552,613 54,613 L54,613 Z M43,611 L53,611 L53,601 L43,601 L43,611 Z" id="Fill-547" fill="#314E55"></path>
+                <path d="M42,640 L54,640 L54,652 L42,652 L42,640 Z" id="Fill-548" fill="#E65F58"></path>
+                <path d="M54,653 L42,653 C41.448,653 41,652.552 41,652 L41,640 C41,639.448 41.448,639 42,639 L54,639 C54.552,639 55,639.448 55,640 L55,652 C55,652.552 54.552,653 54,653 L54,653 Z M43,651 L53,651 L53,641 L43,641 L43,651 Z" id="Fill-550" fill="#314E55"></path>
+                <path d="M13,605 L43,605 L43,607 L13,607 L13,605 Z" id="Fill-551" fill="#314E55"></path>
+                <path d="M47,611 L49,611 L49,641 L47,641 L47,611 Z" id="Fill-552" fill="#314E55"></path>
+                <path d="M7,611 L9,611 L9,641 L7,641 L7,611 Z" id="Fill-553" fill="#314E55"></path>
+                <path d="M13,645 L43,645 L43,647 L13,647 L13,645 Z" id="Fill-554" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

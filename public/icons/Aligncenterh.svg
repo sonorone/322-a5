@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Aligncenterh</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-840.000000, -720.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M853,729 L863,729 L863,763 L853,763 L853,729 Z" id="Fill-737" fill="#81A4E3"></path>
+                <path d="M863,764 L853,764 C852.447,764 852,763.552 852,763 L852,729 C852,728.448 852.447,728 853,728 L863,728 C863.553,728 864,728.448 864,729 L864,763 C864,763.552 863.553,764 863,764 L863,764 Z M854,762 L862,762 L862,730 L854,730 L854,762 Z" id="Fill-739" fill="#314E55"></path>
+                <path d="M873,735 L883,735 L883,757 L873,757 L873,735 Z" id="Fill-740" fill="#81A4E3"></path>
+                <path d="M883,758 L873,758 C872.447,758 872,757.552 872,757 L872,735 C872,734.448 872.447,734 873,734 L883,734 C883.553,734 884,734.448 884,735 L884,757 C884,757.552 883.553,758 883,758 L883,758 Z M874,756 L882,756 L882,736 L874,736 L874,756 Z" id="Fill-742" fill="#314E55"></path>
+                <path d="M842,745 L854,745 L854,747 L842,747 L842,745 Z" id="Fill-743" fill="#314E55"></path>
+                <path d="M882,745 L894,745 L894,747 L882,747 L882,745 Z" id="Fill-744" fill="#314E55"></path>
+                <path d="M862,745 L874,745 L874,747 L862,747 L862,745 Z" id="Fill-745" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

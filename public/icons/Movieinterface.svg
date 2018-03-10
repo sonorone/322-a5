@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Movieinterface</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,9 L0,0 L9,4.5 L0,9 L0,9 Z"></path>
+    </defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(0.000000, -2040.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)">
+                <path d="M2,2046 L56,2046 L56,2086 L2,2086 L2,2046 Z" id="Fill-1654" fill="#73C9C9" sketch:type="MSShapeGroup"></path>
+                <path d="M56,2087 L2,2087 C1.448,2087 1,2086.553 1,2086 L1,2046 C1,2045.447 1.448,2045 2,2045 L56,2045 C56.552,2045 57,2045.447 57,2046 L57,2086 C57,2086.553 56.552,2087 56,2087 L56,2087 Z M3,2085 L55,2085 L55,2047 L3,2047 L3,2085 Z" id="Fill-1656" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M2,2078 L56,2078 L56,2086 L2,2086 L2,2078 Z" id="Fill-1657" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                <path d="M56,2087 L2,2087 C1.448,2087 1,2086.553 1,2086 L1,2078 C1,2077.447 1.448,2077 2,2077 L56,2077 C56.552,2077 57,2077.447 57,2078 L57,2086 C57,2086.553 56.552,2087 56,2087 L56,2087 Z M3,2085 L55,2085 L55,2079 L3,2079 L3,2085 Z" id="Fill-1659" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <path d="M4,2081 L39,2081 L39,2083 L4,2083 L4,2081 Z" id="Fill-1660" fill="#314E55" sketch:type="MSShapeGroup"></path>
+                <g id="Group-1663" transform="translate(25.000000, 2058.000000)">
+                    <mask id="mask-2" sketch:name="Clip 1662" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-1662"></g>
+                    <path d="M0,0 L9,0 L9,9 L0,9 L0,0 Z" id="Fill-1661" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M25,2068 C24.817,2068 24.635,2067.95 24.474,2067.851 C24.18,2067.668 24,2067.347 24,2067 L24,2058 C24,2057.653 24.18,2057.332 24.474,2057.149 C24.769,2056.966 25.138,2056.951 25.447,2057.105 L34.447,2061.605 C34.786,2061.775 35,2062.121 35,2062.5 C35,2062.879 34.786,2063.225 34.447,2063.394 L25.447,2067.894 C25.306,2067.965 25.153,2068 25,2068 L25,2068 Z M26,2059.618 L26,2065.382 L31.764,2062.5 L26,2059.618 L26,2059.618 Z" id="Fill-1664" fill="#314E55" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

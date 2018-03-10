@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Isometricview</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-600.000000, -360.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M602,386 L615,386 L615,411 L602,411 L602,386 Z" id="Fill-339" fill="#D8D8D8"></path>
+                <path d="M615,412 L602,412 C601.447,412 601,411.552 601,411 L601,386 C601,385.448 601.447,385 602,385 L615,385 C615.553,385 616,385.448 616,386 L616,411 C616,411.552 615.553,412 615,412 L615,412 Z M603,410 L614,410 L614,387 L603,387 L603,410 Z" id="Fill-341" fill="#314E55"></path>
+                <path d="M628,361 L641,361 L641,386 L628,386 L628,361 Z" id="Fill-342" fill="#D8D8D8"></path>
+                <path d="M641,387 L628,387 C627.447,387 627,386.552 627,386 L627,361 C627,360.448 627.447,360 628,360 L641,360 C641.553,360 642,360.448 642,361 L642,386 C642,386.552 641.553,387 641,387 L641,387 Z M629,385 L640,385 L640,362 L629,362 L629,385 Z" id="Fill-344" fill="#314E55"></path>
+                <path d="M615,386 L628,386 L628,411 L615,411 L615,386 Z" id="Fill-345" fill="#D8D8D8"></path>
+                <path d="M628,412 L615,412 C614.447,412 614,411.552 614,411 L614,386 C614,385.448 614.447,385 615,385 L628,385 C628.553,385 629,385.448 629,386 L629,411 C629,411.552 628.553,412 628,412 L628,412 Z M616,410 L627,410 L627,387 L616,387 L616,410 Z" id="Fill-347" fill="#314E55"></path>
+                <path d="M641,361 L654,361 L654,386 L641,386 L641,361 Z" id="Fill-348" fill="#D8D8D8"></path>
+                <path d="M654,387 L641,387 C640.447,387 640,386.552 640,386 L640,361 C640,360.448 640.447,360 641,360 L654,360 C654.553,360 655,360.448 655,361 L655,386 C655,386.552 654.553,387 654,387 L654,387 Z M642,385 L653,385 L653,362 L642,362 L642,385 Z" id="Fill-350" fill="#314E55"></path>
+                <path d="M602,361 L628,361 L628,386 L602,386 L602,361 Z" id="Fill-351" fill="#EBEBEB"></path>
+                <path d="M628,387 L602,387 C601.447,387 601,386.552 601,386 L601,361 C601,360.448 601.447,360 602,360 L628,360 C628.553,360 629,360.448 629,361 L629,386 C629,386.552 628.553,387 628,387 L628,387 Z M603,385 L627,385 L627,362 L603,362 L603,385 Z" id="Fill-353" fill="#314E55"></path>
+                <path d="M628,386 L654,386 L654,411 L628,411 L628,386 Z" id="Fill-354" fill="#EBEBEB"></path>
+                <path d="M654,412 L628,412 C627.447,412 627,411.552 627,411 L627,386 C627,385.448 627.447,385 628,385 L654,385 C654.553,385 655,385.448 655,386 L655,411 C655,411.552 654.553,412 654,412 L654,412 Z M629,410 L653,410 L653,387 L629,387 L629,410 Z" id="Fill-356" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Aligncenter</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-480.000000, -720.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M491,731 L525,731 L525,741 L491,741 L491,731 Z" id="Fill-714" fill="#81A4E3"></path>
+                <path d="M525,742 L491,742 C490.447,742 490,741.552 490,741 L490,731 C490,730.448 490.447,730 491,730 L525,730 C525.553,730 526,730.448 526,731 L526,741 C526,741.552 525.553,742 525,742 L525,742 Z M492,740 L524,740 L524,732 L492,732 L492,740 Z" id="Fill-716" fill="#314E55"></path>
+                <path d="M497,751 L519,751 L519,761 L497,761 L497,751 Z" id="Fill-717" fill="#81A4E3"></path>
+                <path d="M519,762 L497,762 C496.447,762 496,761.552 496,761 L496,751 C496,750.448 496.447,750 497,750 L519,750 C519.553,750 520,750.448 520,751 L520,761 C520,761.552 519.553,762 519,762 L519,762 Z M498,760 L518,760 L518,752 L498,752 L498,760 Z" id="Fill-719" fill="#314E55"></path>
+                <path d="M507,720 L509,720 L509,732 L507,732 L507,720 Z" id="Fill-720" fill="#314E55"></path>
+                <path d="M507,760 L509,760 L509,772 L507,772 L507,760 Z" id="Fill-721" fill="#314E55"></path>
+                <path d="M507,740 L509,740 L509,752 L507,752 L507,740 Z" id="Fill-722" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>

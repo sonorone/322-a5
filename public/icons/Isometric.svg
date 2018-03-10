@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Isometric</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-480.000000, -360.000000)">
+            <g id="Imported-Layers" transform="translate(2.000000, 4.000000)" sketch:type="MSShapeGroup">
+                <path d="M482,386 L495,386 L495,411 L482,411 L482,386 Z" id="Fill-324" fill="#D8D8D8"></path>
+                <path d="M495,412 L482,412 C481.447,412 481,411.552 481,411 L481,386 C481,385.448 481.447,385 482,385 L495,385 C495.553,385 496,385.448 496,386 L496,411 C496,411.552 495.553,412 495,412 L495,412 Z M483,410 L494,410 L494,387 L483,387 L483,410 Z" id="Fill-326" fill="#314E55"></path>
+                <path d="M495,386 L508,386 L508,411 L495,411 L495,386 Z" id="Fill-327" fill="#EBEBEB"></path>
+                <path d="M508,412 L495,412 C494.447,412 494,411.552 494,411 L494,386 C494,385.448 494.447,385 495,385 L508,385 C508.553,385 509,385.448 509,386 L509,411 C509,411.552 508.553,412 508,412 L508,412 Z M496,410 L507,410 L507,387 L496,387 L496,410 Z" id="Fill-329" fill="#314E55"></path>
+                <path d="M508,361 L521,361 L521,411 L508,411 L508,361 Z" id="Fill-330" fill="#D8D8D8"></path>
+                <path d="M521,412 L508,412 C507.447,412 507,411.552 507,411 L507,361 C507,360.448 507.447,360 508,360 L521,360 C521.553,360 522,360.448 522,361 L522,411 C522,411.552 521.553,412 521,412 L521,412 Z M509,410 L520,410 L520,362 L509,362 L509,410 Z" id="Fill-332" fill="#314E55"></path>
+                <path d="M521,361 L534,361 L534,411 L521,411 L521,361 Z" id="Fill-333" fill="#EBEBEB"></path>
+                <path d="M534,412 L521,412 C520.447,412 520,411.552 520,411 L520,361 C520,360.448 520.447,360 521,360 L534,360 C534.553,360 535,360.448 535,361 L535,411 C535,411.552 534.553,412 534,412 L534,412 Z M522,410 L533,410 L533,362 L522,362 L522,410 Z" id="Fill-335" fill="#314E55"></path>
+                <path d="M482,361 L508,361 L508,386 L482,386 L482,361 Z" id="Fill-336" fill="#EBEBEB"></path>
+                <path d="M508,387 L482,387 C481.447,387 481,386.552 481,386 L481,361 C481,360.448 481.447,360 482,360 L508,360 C508.553,360 509,360.448 509,361 L509,386 C509,386.552 508.553,387 508,387 L508,387 Z M483,385 L507,385 L507,362 L483,362 L483,385 Z" id="Fill-338" fill="#314E55"></path>
+            </g>
+        </g>
+    </g>
+</svg>
