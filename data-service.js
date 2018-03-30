@@ -217,17 +217,17 @@ module.exports.updateEmployee = function (employeeData) {
     });
 };
 
-module.exports.deleteEmployeeByNum = function(empNum){
+module.exports.deleteEmployeeByNum = function(empNum) {
+    return new Promise((resolve,reject)=> {
 
-    return new Promise((reject,resolve)=>{
         Employee.destroy({
             where: { employeeNum: empNum }
-        }).then((deletedRow)=>{
-            console.log("SUCCESS: Employee '" + deletedRow  + "' has been destroyed o_O .");
-            resolve(deletedRow);
-        }).catch((err)=>{
-            // console.log("Employee cannot be destroyed <O> . Here is why: " + err);
-            reject("ERROR: Employee cannot be destroyed <O> . Here is why: " + err);
+        }).then(()=> {
+            console.log("SUCCESS: Employee has been destroyed o_O .");
+            resolve();
+        })
+        .catch((err)=> {
+            reject("ERROR: Employee cannot be destroyed <o> . Here is why: " + err);
         });
     });
 }
@@ -245,23 +245,37 @@ module.exports.addDepartment = function (departmentData) {
 };
 
 module.exports.updateDepartment = function (departmentData) {
-    departmentData.forEach((prop)=> {
-        if (departmentData[prop] === "") 
-            departmentData[prop] = null;
-    });
     return new Promise((resolve, reject)=> {
-        Department.update(  { departmentName: departmentData.departmentName },
-                            { where: { departmentId: departmentData.departmentId } } )
-        .then( ()=> { console.log("SUCCESS: updated department"); resolve(); })
-        .catch(()=> { console.log("ERROR: update department failure"); reject("unable to update department"); });
+
+        for (var prop in departmentData) {
+            if (departmentData[prop] === "") 
+                departmentData[prop] = null;
+        }
+    
+        if (departmentData.departmentName === null) 
+        {
+            Department.destroy({
+                where: { departmentId: departmentData.departmentId }
+            })
+            .then( ()=> { console.log("SUCCESS: destroyed department"); resolve(); })
+            .catch(()=> { console.log("ERROR: destroyed department failure"); reject("unable to destroy 'empty' department"); });
+        }
+        else
+        {
+            Department.update(  { departmentName: departmentData.departmentName },
+                                { where: { departmentId: departmentData.departmentId } } )
+            .then( ()=> { console.log("SUCCESS: updated department"); resolve(); })
+            .catch(()=> { console.log("ERROR: update department failure"); reject("unable to update department"); });
+        }
+
     });
+
 };
 
 module.exports.getDepartmentById = function (departmentId) {
     return new Promise((resolve,reject)=>{
         Department.findAll({
-            where: { departmentId: departmentId },
-            order: [ ["departmentId", "ASC"] ]
+            where: { departmentId: departmentId }   //, order: [ ['department', 'ASC'] ]
         }).then((data) => {
             resolve(data[0]);
         }).catch((err) => {

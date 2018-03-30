@@ -182,7 +182,9 @@ app.post("/employees/add", (req, res) => {
         .then(() => {
             res.redirect("/employees");
         })
-        .catch();
+        .catch(()=> {
+            res.status(500).send("Unable to Add Employee");
+        });
 });
 
 app.get("/employee/:empNum", (req, res) => {
@@ -235,19 +237,20 @@ app.post("/employee/update", (req, res) => {
     ds.updateEmployee(req.body)
     .then(() => {
         res.redirect("/employees");
-    }).catch(()=> {
-        res.status(500).send("Unable to Update Employee / Employee not found)");
+    })
+    .catch(()=> {
+        res.status(500).send("Unable to Update Employee / Employee not found");
     });
 });
 
 app.get("/employees/delete/:empNum", (req, res) => {
-    ds
-        .deleteEmployeeByNum(req.params.empNum)
-        .then(() => {
-            res.redirect("/employees");
-        }).catch(() => {
-            res.status(500).send("Unable to Remove Employee / Employee not found)");
-        });
+    ds.deleteEmployeeByNum(req.params.empNum)
+    .then(() => {
+        res.redirect("/employees");
+    })
+    .catch(()=> {
+        res.status(500).send("Unable to Remove Employee / Employee not found");
+    });
 });
 
 
@@ -334,6 +337,15 @@ app.get("/departments/:departmentId", (req, res) => {
             res.status(404).send("Department Not Found");
             // res.render("department", { message: err });
         });
+});
+
+app.post("/department/update", (req, res) => {
+    ds.updateDepartment(req.body)
+    .then(() => {
+        res.redirect("/departments");
+    }).catch(()=> {
+        res.status(500).send("Unable to Update Department / Department not found");
+    });
 });
 
 

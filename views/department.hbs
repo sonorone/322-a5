@@ -1,15 +1,15 @@
 <div class="row">
     <div class="col-md-12 box">
-        <h2>{{department.departmentName}} - Department: {{department.departmendId}}</h2>
+        <h2>{{department.departmentName}} - Department: {{department.departmentId}}</h2>
         <hr />
-        <form method="post" action="/departments/update">
+        <form method="post" action="/department/update">
             <fieldset>
                 <div class="row">
-                    <input id="departmentId" name="departmentId" type="hidden" value="{{data.departmendId}}">
+                    <input id="departmentId" name="departmentId" type="hidden" value="{{department.departmentId}}">
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="departmentName">Department Name:</label>
-                            <input class="form-control" id="departmentName" name="departmentName" type="text" value="{{data.departmentName}}" />
+                            <input class="form-control" id="departmentName" name="departmentName" type="text" value="{{department.departmentName}}" />
                         </div>
                     </div>
                 </div>
