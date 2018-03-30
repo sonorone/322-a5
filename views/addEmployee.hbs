@@ -18,7 +18,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="last_name">Last Name:</label>
+                            <label for="lastName">Last Name:</label>
                             <input class="form-control" id="lastName" name="lastName" type="text" />
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                     <div class="col-md-1">
                         <div class="form-group">
                             <label for="isManager">Manager:</label>
-                            <input class="form-control" type="checkbox" name="isManager" />
+                            <input type="checkbox" name="isManager" />
                         </div>
                     </div>
 
@@ -86,10 +86,10 @@
                             <label for="status">Status:</label>
                             <br />
                             <div class="btn-group btn-group-justified">
-                                <label class="btn btn-primary col-sm-6">
+                                <label class="btn btn-primary col-sm-6" style="padding: 5pt 15pt;">
                                     <input type="radio" id="statusFT" name="status" value="Full Time" /> Full Time
                                 </label>
-                                <label class="btn btn-primary col-sm-6">
+                                <label class="btn btn-primary col-sm-6" style="padding: 5pt 15pt;">
                                     <input type="radio" id="statusFT" name="status" value="Part Time" /> Part Time
                                 </label>
                             </div>
@@ -98,15 +98,17 @@
                     <div class="col-md-2">
                         <div class="form-group">
                             <label for="department">Department</label>
+
+                            {{#if departments}}
                             <select class="form-control" name="department" id="department">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
+                                {{#each departments}}
+                                    <option value="{{departmentId}}">{{departmentName}}</option>
+                                {{/each}}
                             </select>
+                            {{else}}
+                                <div>No Departments</div>
+                            {{/if}}
+
                         </div>
                     </div>
                     <div class="col-md-2">

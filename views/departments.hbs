@@ -1,8 +1,9 @@
 <div class="row">
     <div class="col-md-12">
-        <h2 class="pull-right">&nbsp;Departments</h2>
+        <span class="pull-right" style="font-size: 10pt; border: solid 1pt white; padding: 7pt 10pt;">Departments</span>
+        <a class="btn btn-primary pull-left" style="padding: 7pt 25pt;" href="/departments/add" role="button">Add Department</a>
         <hr />
-        <table class="table table-responsive shadow" style="color: black; background-color: rgba(255, 255, 255, 1);">
+        <table class="table table-responsive shadow" style="color: black; background-color: rgba(255, 255, 255, 1); margin-top: 23pt;">
             <thead class="h5">
                 <tr>
                     <th class="col">Department Number</th>
@@ -16,7 +17,7 @@
                         <a href="/employees?department={{this.departmentId}}">{{this.departmentId}}</a>
                     </td>
                     <td class="col">
-                        <a href="/employees?department={{this.departmentId}}">{{this.departmentName}}</a>
+                        <a href="/department/{{this.departmentId}}">{{this.departmentName}}</a>
                     </td>
                 </tr>
                 {{/each}} {{#unless promiseRejected}}

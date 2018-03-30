@@ -1,8 +1,9 @@
 <div class="row">
     <div class="col-md-12">
-        <h2 class="pull-right">&nbsp;Employees</h2>
+        <span class="pull-right" style="font-size: 10pt; border: solid 1pt white; padding: 7pt 10pt;">Employees</span>
+        <a class="btn btn-primary pull-left" style="padding: 7pt 25pt;" href="/employees/add" role="button">Add Employee</a>
         <hr />
-        <table class="table table-responsive shadow" style="color: black; background-color: rgba(255, 255, 255, 1);" >
+        <table class="table table-responsive shadow" style="color: black; background-color: rgba(255, 255, 255, 1); margin-top: 23pt;" >
             <thead class="h5">
                 <tr>
                     <th class="col">Employee Num</th>
@@ -13,6 +14,7 @@
                     <th class="col">Status</th>
                     <th class="col">Department</th>
                     <th class="col">Hired On</th>
+                    <th class="col"></th>
                 </tr>
             </thead>
             <tbody>
@@ -26,6 +28,7 @@
                     <td class="col"><a href="/employees?status={{this.status}}">{{this.status}}</a></td>
                     <td class="col"><a href="/employees?department={{this.department}}">{{this.department}}</a></td>
                     <td class="col">{{this.hireDate}}</td>
+                    <td class="col"><a href="/employees/delete/{{this.employeeNum}}" type="button" class="btn btn-danger btn-sm">Remove</a></td>
                 </tr>
                  {{/each}} {{#unless promiseRejected}}
                 <tr>

@@ -50,6 +50,7 @@ legend {
 }
 
 .form-control, select.form-control {
+  -webkit-appearance: none; 
   border-radius: 0;
 }
 
@@ -81,7 +82,7 @@ td, th {
   vertical-align: inherit;
 }
 
-tbody td {
+tbody td, thead th {
   border-color: #f1f3f5;
   padding: 3rem;
   border-style: solid;
@@ -89,6 +90,7 @@ tbody td {
   box-sizing: border-box;
   font-family: 'Work Sans';
   font-size: 10pt;
+  vertical-align: middle;
 }
 
 .navbar li {
@@ -114,6 +116,11 @@ h2 { padding-top: 0;margin-top: 0; font-family: 'Work Sans'; font-size: 20pt; fo
   transition: all 0.25s ease-out;
 }
 
+
+
+.btn-primary:focus {
+  background-color: white;
+}
 .btn-primary:hover, .btn-primary.active:hover {
   background-color: rgba(255, 255, 255, 0.9);
   border-color: rgba(245,245,245,0.8);
@@ -121,11 +128,27 @@ h2 { padding-top: 0;margin-top: 0; font-family: 'Work Sans'; font-size: 20pt; fo
   /* transform: scale(1.1); */
 }
 
+.btn-primary:visted {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-color: whitesmoke;
+  color: grey;
+}
 .btn-primary.active {
   background-color: rgba(255, 255, 255, 0.7);
   border-color: whitesmoke;
   color: grey;
 }
+
+
+
+.btn-danger {
+  border-color: rgb(214, 16, 16);
+  color: rgb(226, 13, 13);
+  padding: 3pt 15pt;
+  max-width: none;
+  min-width: 100%;
+}
+
 .skewed-bg .content {
   margin-top: -130pt;
   margin-bottom: -80pt;

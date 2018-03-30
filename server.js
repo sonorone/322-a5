@@ -18,263 +18,343 @@ const fs = require("fs");
 const path = require("path");
 const multer = require("multer");
 const bodyParser = require("body-parser");
-const exphbs = require('express-handlebars');
-const Sequelize = require('sequelize');
-
-var sequelize = new Sequelize(
-    "d9u6joso2lqj8c",
-    "rdixcmvcyifhye",
-    "fe38d627b265ca5bacaf330dee9b45f83c6ab4b81a38908e4b056bf10649b51c",
-    {
-        host: 'ec2-23-21-166-148.compute-1.amazonaws.com',
-        port: 5432,
-        dialect: 'postgres',
-        dialectOptions: { ssl: true }
-    }
-);
-
-sequelize
-    .authenticate()
-    .then(() => { console.log('Connection has been established successfully.') })
-    .catch((err) => { console.log('Unable to connect to the database', err) });
-
-var Employees = sequelize.define('Employees', {
-    employeeNum: Sequelize.INTEGER,
-    firstName: Sequelize.STRING,
-    lastName: Sequelize.STRING,
-    email: Sequelize.STRING,
-    SSN: Sequelize.STRING,
-    addressStreet: Sequelize.STRING,
-    addressCity: Sequelize.STRING,
-    addressState: Sequelize.STRING,
-    addressPostal: Sequelize.STRING,
-    maritalStatus: Sequelize.STRING,
-    isManager: Sequelize.BOOLEAN,
-    employeeManagerNum: Sequelize.INTEGER,
-    status: Sequelize.STRING,
-    department: Sequelize.INTEGER,
-    hireDate: Sequelize.DATE
-});
-
+const exphbs = require("express-handlebars");
 
 // middleware
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static("public"));
-app.use(function(req,res,next) {
-    let route = req.baseUrl + req.path;
-    app.locals.activeRoute = (route == "/") ? "/" : route.replace(/\/$/, "");
-    next();
-});
-// template engine
-app.engine('.hbs', exphbs({
-    extname: '.hbs',
-    defaultLayout: 'main',
-    helpers: {
-        navLink: function(url, options) {
-            return '<li ' + ((url == app.locals.activeRoute) ? 'class="active"' : '' ) + 
-            '><a href="' + url + '">' + options.fn(this) + '</a></li>';
-        },
-        equal: function(lvalue,rvalue,options) {
-            if (arguments.length < 3)
-            throw new Error('Hendlebars Helper equal needs 2 parameters');
-            if (lvalue != rvalue) {
-                return options.inverse(this);
-            } else {
-                return options.fn(this);
-            }
-        }
-    }
+app.use(bodyParser.urlencoded({
+    extended: true
 }));
 
-app.set('view engine', '.hbs');
+app.use(express.static("public"));
 
+app.use(function (req, res, next) {
+    let route = req.baseUrl + req.path;
+    app.locals.activeRoute = route == "/" ? "/" : route.replace(/\/$/, "");
+    next();
+});
+
+// template engine
+app.engine(
+    ".hbs",
+    exphbs({
+        extname: ".hbs",
+        defaultLayout: "main",
+        helpers: {
+            navLink: function (url, options) {
+                return (
+                    "<li " + (url == app.locals.activeRoute ? 'class="active"' : "") + '><a href="' +
+                    url +  '">' +   options.fn(this) + "</a></li>"
+                );
+            },
+            equal: function (lvalue, rvalue, options) {
+                if (arguments.length < 3)
+                    throw new Error(
+                        "Hendlebars Helper equal needs 2 parameters"
+                    );
+                if (lvalue != rvalue) {
+                    return options.inverse(this);
+                } else {
+                    return options.fn(this);
+                }
+            }
+        }
+    })
+);
+app.set("view engine", ".hbs");
+
+
+// storage
 const storage = multer.diskStorage({
     destination: "./public/images/uploaded/",
-    filename: function(req, file, cb) {
+    filename: function (req, file, cb) {
         cb(null, Date.now() + path.extname(file.originalname));
     }
 });
-const upload = multer({ storage: storage });
+const upload = multer({
+    storage: storage
+});
 
 
+// routes
+app.get("/", (req, res) => {
+    res.render("home");
+});
 
-sequelize.sync().then( () => {
+app.get("/about", (req, res) => {
+    res.render("about");
+});
 
-    app.get("/employee/:empNum", (req, res) => {
+app.get("/public/css/site.css", (req, res) => {
+    res.sendFile(path.join(__dirname, "/public/css/site.css"));
+});
+
+
+/**
+ * employee section
+ */
+app.get("/employees", (req, res) => {
+    if (req.query.status != null) {
+        // console.log("employees query for 'status'");
         ds
+            .getEmployeesByStatus(req.query.status)
+            .then(data => {
+                res.render("employees", {
+                    data: data
+                });
+                console.log("getEmployeesByStatus promise resolved");
+            })
+            .catch(err => {
+                res.render("employees", {
+                    message: err
+                });
+                console.log("getEmployeesByStatus promise rejected");
+            });
+    } else if (req.query.department != null) {
+        // console.log("employees query for 'department'");
+        ds
+            .getEmployeesByDepartment(req.query.department)
+            .then(data => {
+                res.render("employees", {
+                    data: data
+                });
+                console.log("getEmployeesByDepartment promise resolved");
+            })
+            .catch(err => {
+                res.render("employees", {
+                    message: err
+                });
+                console.log("getEmployeesByDepartment promise rejected");
+            });
+    } else if (req.query.manager != null) {
+        // console.log("employees query for 'manager'");
+        ds
+            .getEmployeesByManager(req.query.manager)
+            .then(data => {
+                res.render("employees", {
+                    data: data
+                });
+                console.log("getEmployeesByManager promise resolved");
+            })
+            .catch(err => {
+                res.render("employees", {
+                    message: err
+                });
+                console.log("getEmployeesByManager promise rejected");
+            });
+    } else {
+        ds
+            .getAllEmployees()
+            .then(data => {
+                if (data.length > 0)
+                    res.render("employees", {
+                        data: data
+                    });
+                else
+                    res.render("employees", {
+                        message: "no results"
+                    });
+                console.log("getAllEmployees promise resolved. No of Rows:" + data.length);
+            })
+            .catch(err => {
+                res.render("employees", {
+                    message: err
+                });
+                console.log("getAllEmployees promise rejected");
+            });
+    }
+});
+
+app.get("/employees/add", (req, res) => {
+    ds.getDepartments().then((departmentData) => {
+        res.render("addEmployee", {
+            departments: departmentData
+        });
+    }).catch(() => {
+        res.render("addEmployee", {
+            departments: []
+        });
+    });
+});
+
+app.post("/employees/add", (req, res) => {
+    ds
+        .addEmployee(req.body)
+        .then(() => {
+            res.redirect("/employees");
+        })
+        .catch();
+});
+
+app.get("/employee/:empNum", (req, res) => {
+    // initialize an empty object to store the values
+    let viewData = {};
+    ds
         .getEmployeeByNum(req.params.empNum)
         .then(data => {
-            res.render('employee', {employee: data });
+            if (data) {
+                //store employee data in the "viewData" object as "employee"
+                viewData.employee = data; 
+            } else {
+                // set employee to null if none were returned
+                viewData.employee = null; 
+            }
         })
-        .catch(err => {
-            res.render('employee', {message: err });
+        .catch(() => {
+            // set employee to null if there was an error
+            viewData.employee = null; 
+        })
+        .then(ds.getDepartments)
+        .then(data => {
+            // store department data in the "viewData" object as "departments"
+            viewData.departments = data; 
+            // loop through viewData.departments and once we have found the departmentId that matches 
+            // the employee's "department" value, add a "selected" property to the matching
+            // viewData.departments object
+            for (let i = 0; i < viewData.departments.length; i++) {
+                if (viewData.departments[i].departmentId == viewData.employee.department) {
+                    viewData.departments[i].selected = true;
+                }
+            }
+        })
+        .catch(() => {
+            viewData.departments = []; // set departments to empty if there was an error
+        })
+        .then(() => {
+            if (viewData.employee == null) {
+                // if no employee - return an error
+                res.status(404).send("Employee Not Found");
+            } else {
+                res.render("employee", {
+                    viewData: viewData
+                }); // render the "employee" view
+            }
         });
+});
+
+app.post("/employee/update", (req, res) => {
+    ds.updateEmployee(req.body)
+    .then(() => {
+        res.redirect("/employees");
+    }).catch(()=> {
+        res.status(500).send("Unable to Update Employee / Employee not found)");
     });
-    
-    app.post('/employee/update', (req,res) => {
-        ds.updateEmployee(req.body).then(() => {
-            res.redirect('/employees');
+});
+
+app.get("/employees/delete/:empNum", (req, res) => {
+    ds
+        .deleteEmployeeByNum(req.params.empNum)
+        .then(() => {
+            res.redirect("/employees");
+        }).catch(() => {
+            res.status(500).send("Unable to Remove Employee / Employee not found)");
         });
-    });
-    
-    app.get("/images", (req, res) => {
-        var dirFiles = [];
-        fs.readdir(
-            path.join(__dirname, "/public/images/uploaded/"),
+});
+
+
+/**
+ * images section
+ */
+app.get("/images", (req, res) => {
+    var dirFiles = [];
+    fs.readdir(
+        path.join(__dirname, "/public/images/uploaded/"),
         (err, items) => {
             var dirFiles = [];
             items.forEach(element => {
                 dirFiles.push(element);
             });
-            res.render('images', { data: dirFiles} );
+            res.render("images", {
+                data: dirFiles
+            });
         }
     );
 });
 
-    app.get("/public/css/site.css", (req, res) => {
-        res.sendFile(path.join(__dirname, "/public/css/site.css"));
-    });
-
-    app.get("/", (req, res) => {
-        res.render('home');
-    });
-
-    app.get("/about", (req, res) => {
-        res.render('about');
-    });
-
-    app.get("/employees/add", (req, res) => {
-        res.render('addEmployee');
-    });
-
-    app.post("/employees/add", (req, res) => {
-        ds
-        .addEmployee(req.body)
-        .then(() => {
-            res.redirect("/employees");
-        })
-            .catch();
-        });
-        
-        app.get("/images/add", (req, res) => {
-        res.render('addImage');
-    });
-
-    app.post("/images/add", upload.single("imageFile"), (req, res) => {
-        res.redirect("/images");
-    });
-
-    app.get("/employees", (req, res) => {
-        if (req.query.status != null) {
-            // console.log("employees query for 'status'");
-            ds
-            .getEmployeesByStatus(req.query.status)
-            .then(data => {
-                res.render('employees',{data: data});
-                console.log("getEmployeesByStatus promise resolved");
-            })
-                .catch(err => {
-                    res.render('employees', {message: err});
-                    console.log("getEmployeesByStatus promise rejected");
-                });
-            } else if (req.query.department != null) {
-                // console.log("employees query for 'department'");
-                ds
-                .getEmployeesByDepartment(req.query.department)
-                .then(data => {
-                    res.render('employees',{data: data});
-                    console.log("getEmployeesByDepartment promise resolved");
-                })
-                .catch(err => {
-                    res.render('employees', {message: err});
-                    console.log("getEmployeesByDepartment promise rejected");
-                });
-            } else if (req.query.manager != null) {
-            // console.log("employees query for 'manager'");
-            ds
-                .getEmployeesByManager(req.query.manager)
-                .then(data => {
-                    res.render('employees',{data: data});
-                    console.log("getEmployeesByManager promise resolved");
-                })
-                .catch(err => {
-                    res.render('employees', {message: err});
-                    console.log("getEmployeesByManager promise rejected");
-                });
-        } else {
-            ds
-                .getAllEmployees()
-                .then(data => {
-                    res.render('employees',{data: data});
-                    console.log("getAllEmployees promise resolved");
-                })
-                .catch(err => {
-                    res.render('employees', {message: err});
-                    console.log("getAllEmployees promise rejected");
-                });
-            }
-    });
-
-    app.get("/departments", (req, res) => {
-        ds
-        .getDepartments()
-            .then(data => {
-                res.render('departments', {departments: data})
-            })
-            .catch(err => {
-                res.render('departments', {message: err})
-            });
-        });
-        
-        /**
-         * 404 - resource not found
-     */
-    app.use(function(req, res) {
-        res.status(404).send("Page Not Found");
-    });
-
-
-    // only start your server when initilize promise is resolved 
-    ds  
-        .initialize()
-        .then(function() {
-            app.listen(HTTP_PORT, function() {
-                console.log("listening to port: " + HTTP_PORT);
-            });
-
-            // // ONE-TIME LOAD script
-            // var emps = [];
-            // ds
-            //     .getAllEmployees()
-            //     .then(data => {
-            //         emps = data;
-            //         console.log("sequelize sync success - emps loaded" + emps[0].firstName);
-            //         for (var i = 0; i < emps.length; i++) {
-            //             Employees.create({
-            //                 employeeNum: emps[i].employeeNum,
-            //                 firstName: emps[i].firstName,
-            //                 lastName: emps[i].lastName,
-            //                 email: emps[i].email,
-            //                 SSN: emps[i].SSN,
-            //                 addressStreet: emps[i].addressStreet,
-            //                 addressCity: emps[i].addressCity,
-            //                 addressState: emps[i].addressState,
-            //                 addressPostal: emps[i].addressPostal,
-            //                 maritalStatus: emps[i].maritalStatus,
-            //                 isManager: emps[i].isManager,
-            //                 employeeManagerNum: emps[i].employeeManagerNum,
-            //                 status: emps[i].status,
-            //                 department: emps[i].department,
-            //                 hireDate: emps[i].hireDate
-            //             });
-            //         } // TEST END
-            //     })
-            //     .catch(() => {
-            //         console.log("emps didnt not load into pg db");
-            //     });
-        })
-        .catch(function() {
-            console.log("initialization rejected - server cannot be started");
-        });
-
+app.get("/images/add", (req, res) => {
+    res.render("addImage");
 });
+
+app.post("/images/add", upload.single("imageFile"), (req, res) => {
+    res.redirect("/images");
+});
+
+
+/**
+ * department section
+ */
+app.get("/departments", (req, res) => {
+    ds
+        .getDepartments()
+        .then(data => {
+            if (data.length > 0)
+                res.render("departments", {
+                    departments: data
+                });
+            else
+                res.render("departments", {
+                    message: "no results"
+                });
+            console.log("getDepartments promise resolved");
+        })
+        .catch(err => {
+            res.render("departments", {
+                message: err
+            });
+            console.log("getDepartments promise rejected");
+        });
+});
+
+app.get("/departments/add", (req, res) => {
+    res.render("addDepartment");
+});
+
+app.post("/departments/add", (req, res) => {
+    ds
+        .addDepartment(req.body)
+        .then(() => {
+            res.redirect("/departments");
+        })
+        .catch(() => {
+
+        });
+});
+
+app.get("/departments/:departmentId", (req, res) => {
+    ds
+        .getDepartmentById(req.params.departmentId)
+        .then(data => {
+            if (data == undefined)
+                res.status(404).send("Department Not Found")
+            else
+                res.render("department", {
+                    department: data
+                });
+        })
+        .catch(err => {
+            res.status(404).send("Department Not Found");
+            // res.render("department", { message: err });
+        });
+});
+
+
+
+/**
+ * 404 - resource not found 
+ */
+app.use(function (req, res) {
+    res.status(404).send("Page Not Found");
+});
+
+
+
+// only start your server when initilize promise is resolved
+ds
+    .initialize()
+    .then(function () {
+        app.listen(HTTP_PORT, function () {
+            console.log("listening to port: " + HTTP_PORT);
+        });
+    })
+    .catch(function () {
+        console.log("initialization rejected - server cannot be started");
+    });
