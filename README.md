@@ -1,4 +1,4 @@
-# WEB322 Assignment 4
+# Web app with Node.js and Express backend
 
 This is a Node.js application that allows you to manage your employee database, with capabilities to:
 - add new employee
